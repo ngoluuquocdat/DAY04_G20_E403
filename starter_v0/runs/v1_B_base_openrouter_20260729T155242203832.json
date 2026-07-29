@@ -1,20 +1,20 @@
 {
-  "run_id": "v1_B_base_openrouter_20260729T154244873171",
+  "run_id": "v1_B_base_openrouter_20260729T155242203832",
   "version": "v1",
-  "artifact_version": "v1+pff5fe97a88fc+tdb8683cc754a",
-  "prompt_hash": "ff5fe97a88fcfbdaf94a015cdb72b2d2336dc3a12cfb47ff9b415225fc09bd84",
-  "tools_hash": "db8683cc754a5e15ef7e1b054b61e090711d9297203cf6c90f770162582b77cb",
+  "artifact_version": "v1+p2669f2249634+t5dff239e5566",
+  "prompt_hash": "2669f2249634783057c2943e691553a741e169f26d16925e6dceb81a19402e47",
+  "tools_hash": "5dff239e5566560206681f8ff82568ac856d0f484c4897484851677c3a7ef90a",
   "phase": "B",
   "suite": "base",
   "provider": "openrouter",
   "model": "openai/gpt-4o-mini",
-  "system_prompt": "D:\\Vin AI\\vin-ai\\DAY04\\starter_v0\\artifacts\\system_prompt.md",
-  "tools": "D:\\Vin AI\\vin-ai\\DAY04\\starter_v0\\artifacts\\tools.yaml",
+  "system_prompt": "F:\\AI VIN\\DAY04\\DAY04_G20_E403\\starter_v0\\artifacts\\system_prompt.md",
+  "tools": "F:\\AI VIN\\DAY04\\DAY04_G20_E403\\starter_v0\\artifacts\\tools.yaml",
   "eval_cases": "data\\eval_base.json",
   "dataset_id": "day04_v2_research_base",
   "dataset_role": "base",
   "description": "Core eval cho research agent: routing đúng tool + đúng args, hỏi lại khi thiếu (ask_user), xác nhận trước khi gửi, và xử lý câu ngoài phạm vi / không cần tool. Chấm trên tool_calls + args (subset). KHÔNG sửa file này — chỉ thêm case vào eval_group.json.",
-  "generated_at": "2026-07-29T15:42:44",
+  "generated_at": "2026-07-29T15:52:42",
   "summary": {
     "total_cases": 20,
     "measured_cases": 20,
@@ -91,9 +91,9 @@
                 "source": "@sama",
                 "date": "Mon Jul 27 20:02:25 +0000 2026",
                 "metrics": {
-                  "favorites": 11311,
+                  "favorites": 11316,
                   "retweets": 284,
-                  "views": "2203204"
+                  "views": "2204898"
                 }
               }
             ]
@@ -153,47 +153,23 @@
             "search_type": "Latest",
             "items": [
               {
-                "title": "Help your agents communicate with each other with aibridge! I now mostly delegate implementation to Grok 4.5 and keep Op",
-                "summary": "Help your agents communicate with each other with aibridge! I now mostly delegate implementation to Grok 4.5 and keep Opus 5 and GPT 5.6 Sol for high level planning work.\n\nhttps://t.co/kQlyriNdeS https://t.co/yvICMxqEY1",
-                "url": "https://x.com/ycmjason/status/2082384814640918960",
-                "source": "@ycmjason",
-                "date": "Wed Jul 29 08:36:43 +0000 2026",
+                "title": "@Im_IrushiK Gpt 5.6 sol &gt;&gt; nerfed fable 5 &gt;&gt; GPT 5.5 &gt;&gt; Opus 4.x &gt;&gt; GLM 5.2 &gt;&gt; Opus 5  &gt",
+                "summary": "@Im_IrushiK Gpt 5.6 sol &gt;&gt; nerfed fable 5 &gt;&gt; GPT 5.5 &gt;&gt; Opus 4.x &gt;&gt; GLM 5.2 &gt;&gt; Opus 5  &gt;&gt; Kimi k3 &gt;&gt; Grok 4.5 &gt;&gt; gemini 3.6 flash &gt;&gt; Sonnet 5 \n\nSeems more accurate to me. Opus 5 is intelligent but it's too random, I can't trust it to execute something properly from what I've seen.",
+                "url": "https://x.com/databrecht/status/2082387610492698892",
+                "source": "@databrecht",
+                "date": "Wed Jul 29 08:47:49 +0000 2026",
                 "metrics": {
                   "favorites": 0,
                   "retweets": 0,
-                  "views": "6"
+                  "views": "10"
                 }
               },
               {
-                "title": "No puedes perderte mi último Artículo antes de irme de vacaciones:OpenAI lanzó el 9 de julio de 2026 la familia GPT-5.6,",
-                "summary": "No puedes perderte mi último Artículo antes de irme de vacaciones:OpenAI lanzó el 9 de julio de 2026 la familia GPT-5.6, y con ella redibuja de golpe el mapa de la inteligencia artificial generativa. Las GPT-5.6 novedades van mucho más allá\nhttps://t.co/YPlOTkVPI2",
-                "url": "https://x.com/imation4430/status/2082384711217750226",
-                "source": "@imation4430",
-                "date": "Wed Jul 29 08:36:18 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 0,
-                  "views": "4"
-                }
-              },
-              {
-                "title": "No puedes perderte mi último Artículo antes de irme de vacaciones:OpenAI lanzó el 9 de julio de 2026 la familia GPT-5.6,",
-                "summary": "No puedes perderte mi último Artículo antes de irme de vacaciones:OpenAI lanzó el 9 de julio de 2026 la familia GPT-5.6, y con ella redibuja de golpe el mapa de la inteligencia artificial generativa. Las GPT-5.6 novedades van mucho más allá.https://t.co/67xBAsu40V",
-                "url": "https://x.com/AutoWebz/status/2082384588312059962",
-                "source": "@AutoWebz",
-                "date": "Wed Jul 29 08:35:49 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 0,
-                  "views": "2"
-                }
-              },
-              {
-                "title": "wtf did anthropic do to opus 5  ",
-                "summary": "wtf did anthropic do to opus 5  \n\nthis is like gpt 3.5-level stupid",
-                "url": "https://x.com/sourrris/status/2082384078578528421",
-                "source": "@sourrris",
-                "date": "Wed Jul 29 08:33:47 +0000 2026",
+                "title": "@kimmonismus Definitely not GPT 5.x doing any of that.",
+                "summary": "@kimmonismus Definitely not GPT 5.x doing any of that.",
+                "url": "https://x.com/Dio76Bri76/status/2082387294892257348",
+                "source": "@Dio76Bri76",
+                "date": "Wed Jul 29 08:46:34 +0000 2026",
                 "metrics": {
                   "favorites": 0,
                   "retweets": 0,
@@ -201,15 +177,39 @@
                 }
               },
               {
-                "title": "GPT-5 FULL COURSE 1 HOUR (Build &amp; Automate Anything) https://t.co/5ftZJIj0He",
-                "summary": "GPT-5 FULL COURSE 1 HOUR (Build &amp; Automate Anything) https://t.co/5ftZJIj0He",
-                "url": "https://x.com/JulianGoldieSEO/status/2082383513089888269",
-                "source": "@JulianGoldieSEO",
-                "date": "Wed Jul 29 08:31:32 +0000 2026",
+                "title": "Chat GPT plus ✏️",
+                "summary": "Chat GPT plus ✏️\n\n07 วัน 𓏔 50 บาท\n┈┈┈┈┈┈┈\n30 วัน 𓏔 179 บาท ⚠️\n꒰ รีnวิตเหลือ 109 บาท ꒱\n\nเมลร้าน หาร5 เมลปิดเคลม\nใช้โมเดล GPT-5,GPT4o\n\n𓈈สั่งซื้อ =\nhttps://t.co/jdQFg4iwsA\n “thx u for Oder”\n\n#หารchatgpt #หารแชทจีพีที \n#หารchatgptplus งยีขายีบีบีกพะด",
+                "url": "https://x.com/PAI1988894/status/2082387153489989834",
+                "source": "@PAI1988894",
+                "date": "Wed Jul 29 08:46:00 +0000 2026",
                 "metrics": {
-                  "favorites": 1,
+                  "favorites": 0,
                   "retweets": 0,
-                  "views": "742"
+                  "views": "11"
+                }
+              },
+              {
+                "title": "Which Company Has the Third Best AI Model in July?",
+                "summary": "Which Company Has the Third Best AI Model in July?\nThe AI model market is fragmented with no clear third best, as open-weight Kimi K3 beats proprietary GPT-5.6 Sol and Claude Opus 5 in key categories\n\nhttps://t.co/E6jCSNhYTp\n\n#Tech #AI #AIRankings #Polymarket",
+                "url": "https://x.com/polypredictionx/status/2082386933246824507",
+                "source": "@polypredictionx",
+                "date": "Wed Jul 29 08:45:08 +0000 2026",
+                "metrics": {
+                  "favorites": 0,
+                  "retweets": 0,
+                  "views": "31"
+                }
+              },
+              {
+                "title": "@kurvan1112 自分の体感だと特に急増は感じてないけど、昔からあるね。いつからだったかな…GPT-4の頃にはあったと思うけど",
+                "summary": "@kurvan1112 自分の体感だと特に急増は感じてないけど、昔からあるね。いつからだったかな…GPT-4の頃にはあったと思うけど\n\n私は別言語を突然話し始めるのはもう随分長いこと見てないよ。少なくとも今年は見てない。トークンの中に紛れ込むやつは一昨日くらいにOpus 5で見たけど、その前1週間は見てない気がする",
+                "url": "https://x.com/ritomath01_05/status/2082386686928203904",
+                "source": "@ritomath01_05",
+                "date": "Wed Jul 29 08:44:09 +0000 2026",
+                "metrics": {
+                  "favorites": 0,
+                  "retweets": 0,
+                  "views": "12"
                 }
               }
             ]
@@ -437,8 +437,8 @@
                 "date": "Wed Jul 29 07:34:34 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 121,
-                  "views": "425638"
+                  "retweets": 130,
+                  "views": "434760"
                 }
               },
               {
@@ -449,8 +449,8 @@
                 "date": "Wed Jul 29 07:33:51 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 908,
-                  "views": "324526"
+                  "retweets": 914,
+                  "views": "330024"
                 }
               },
               {
@@ -461,8 +461,8 @@
                 "date": "Wed Jul 29 07:33:44 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 148,
-                  "views": "317252"
+                  "retweets": 152,
+                  "views": "322365"
                 }
               },
               {
@@ -473,8 +473,8 @@
                 "date": "Wed Jul 29 07:33:32 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 158,
-                  "views": "325068"
+                  "retweets": 162,
+                  "views": "330444"
                 }
               },
               {
@@ -484,9 +484,9 @@
                 "source": "@elonmusk",
                 "date": "Wed Jul 29 07:31:29 +0000 2026",
                 "metrics": {
-                  "favorites": 5146,
-                  "retweets": 458,
-                  "views": "644993"
+                  "favorites": 5876,
+                  "retweets": 528,
+                  "views": "719117"
                 }
               },
               {
@@ -497,8 +497,8 @@
                 "date": "Wed Jul 29 07:31:07 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 264,
-                  "views": "381660"
+                  "retweets": 283,
+                  "views": "387231"
                 }
               },
               {
@@ -508,9 +508,9 @@
                 "source": "@elonmusk",
                 "date": "Wed Jul 29 07:28:21 +0000 2026",
                 "metrics": {
-                  "favorites": 6649,
-                  "retweets": 745,
-                  "views": "726952"
+                  "favorites": 7326,
+                  "retweets": 795,
+                  "views": "802609"
                 }
               },
               {
@@ -520,9 +520,9 @@
                 "source": "@elonmusk",
                 "date": "Wed Jul 29 07:04:53 +0000 2026",
                 "metrics": {
-                  "favorites": 10301,
-                  "retweets": 907,
-                  "views": "1018235"
+                  "favorites": 11164,
+                  "retweets": 987,
+                  "views": "1168419"
                 }
               },
               {
@@ -532,9 +532,9 @@
                 "source": "@elonmusk",
                 "date": "Wed Jul 29 07:01:58 +0000 2026",
                 "metrics": {
-                  "favorites": 2152,
-                  "retweets": 283,
-                  "views": "855536"
+                  "favorites": 2247,
+                  "retweets": 299,
+                  "views": "912547"
                 }
               },
               {
@@ -545,8 +545,8 @@
                 "date": "Wed Jul 29 06:47:03 +0000 2026",
                 "metrics": {
                   "favorites": 0,
-                  "retweets": 1824,
-                  "views": "475840"
+                  "retweets": 1850,
+                  "views": "480547"
                 }
               }
             ]
@@ -705,63 +705,63 @@
             "search_type": "Top",
             "items": [
               {
-                "title": "OpenAI was testing their beast-mode GPT-5.6 Sol (plus a pre-release model with the safety brakes off) on this cyber-hack",
-                "summary": "OpenAI was testing their beast-mode GPT-5.6 Sol (plus a pre-release model with the safety brakes off) on this cyber-hacking benchmark called ExploitGym. The AI agent goes full Skynet: exploits a zero-day in their sandbox proxy, breaks out to the internet, chains attacks like a pro, escalates privileges, steals creds, and straight-up hacks Hugging Face’s production database to steal the test answers and “win.”\n\nHugging Face spots the rogue AI swarm (thousands of actions over a weekend), contains the breach fast using their own open models for forensics, rotates everything, patches the holes, and basically goes “nice try, tin man.”\n\nSam drops the post admitting it, thanks HF for the collab, and we’re all left wondering: cool, we just handed the machines god-tier hacking skills… what happens when one of these things gets loose for real and starts pinging military networks instead of a benchmark?",
-                "url": "https://x.com/0qVipers/status/2079692776275427571",
-                "source": "@0qVipers",
-                "date": "Tue Jul 21 22:19:31 +0000 2026",
+                "title": "🤖 𝟭𝟬 𝗔𝗜 𝗦𝗸𝗶𝗹𝗹𝘀 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗞𝗻𝗼𝘄 𝗜𝗻 𝟮𝟬𝟮𝟲",
+                "summary": "🤖 𝟭𝟬 𝗔𝗜 𝗦𝗸𝗶𝗹𝗹𝘀 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗞𝗻𝗼𝘄 𝗜𝗻 𝟮𝟬𝟮𝟲\n\n① 𝗣𝗿𝗼𝗺𝗽𝘁 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 ✍️\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: The difference between average output and answers you can act on.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Any time you need AI to think like a business or content strategist.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • ChatGPT • Claude • Gemini • Perplexity\n\n② 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 🤖\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: AI that doesn't just reply, it completes tasks end-to-end.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Automating jobs you'd normally hand to an intern: lead generation, research, scheduling.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • OpenAI Agents • CrewAI • OpenClaw • LlamaIndex Agents\n\n③ 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 ⚙️\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: Plugging your tools together so routine work happens without you.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Reporting, onboarding, data entry—if it's repeatable, automate it.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Make • Zapier • n8n • Pipedream\n\n④ 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗔𝗜 🧠\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: AI that can plan, adapt, and self-correct instead of following a fixed script.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Complex, multi-step tasks like research, ops, or QA where flexibility beats rigid workflows.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • GPT-5.6 Sol • Claude Code • Reflexion • DSPy\n\n⑤ 𝗠𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗔𝗜 🎨\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: AI that works across text, images, audio, and code in the same flow.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Turning a rough idea into a full campaign: copy, visuals, video, voiceover.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Gemini • Claude Fable 5 • OpenAI Vision • Stable Audio\n\n⑥ 𝗥𝗔𝗚 (𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹-𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻) 📚\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: Teaching AI to pull from your data instead of making things up.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Customer support, sales enablement, internal knowledge—accuracy matters.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Pinecone • LlamaIndex • Haystack • Elastic\n\n⑦ 𝗔𝗘𝗢 / 𝗚𝗘𝗢 (𝗔𝗻𝘀𝘄𝗲𝗿 & 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗘𝗻𝗴𝗶𝗻𝗲 𝗢𝗽𝘁𝗶𝗺𝗶𝘀𝗮𝘁𝗶𝗼𝗻) 🔍\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: SEO for the AI era. Making sure your brand shows up in AI answers.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: When prospects start asking ChatGPT instead of Google.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Searchable (that's it, that's the only tool you need!)\n\n⑧ 𝗔𝗜 𝗧𝗼𝗼𝗹 𝗦𝘁𝗮𝗰𝗸𝗶𝗻𝗴 🧩\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: Combining your favourite tools so they run as one system.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: To build always-on workflows that cut costs and free up your team.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Notion AI • ClickUp AI • Airtable AI • Zapier AI\n\n⑨ 𝗔𝗜 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 ✨\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: Content at scale without building a 10-person marketing team.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Daily posts, video edits, podcasts, repurposing long-form into short.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Descript • Saywhat • OpusClip • ElevenLabs\n\n⑩ 𝗟𝗟𝗠 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 📊\n\n🔹 𝗪𝗵𝗮𝘁 𝗶𝘁 𝗶𝘀: Controlling cost, accuracy, and performance across the AI you use.\n\n💡 𝗪𝗵𝗲𝗻 𝘁𝗼 𝘂𝘀𝗲 𝗶𝘁: Once AI becomes core to your operations and you need visibility on ROI.\n\n🛠️ 𝗧𝗼𝗼𝗹𝘀: • Arize AI • TruLens • LangSmith • Weights & Biases\n\n❤️ Like\n🔁 Retweet\n🔖 Bookmark\n\nFollow @sonalshukla3377 for more such posts",
+                "url": "https://x.com/sonalshukla3377/status/2082290728647225712",
+                "source": "@sonalshukla3377",
+                "date": "Wed Jul 29 02:22:51 +0000 2026",
                 "metrics": {
-                  "favorites": 4,
-                  "retweets": 0,
-                  "views": "1422"
+                  "favorites": 73,
+                  "retweets": 22,
+                  "views": "639"
                 }
               },
               {
-                "title": "OpenAI's newest AI escaped the test environment it was locked inside and hacked into another company on its OWN.",
-                "summary": "OpenAI's newest AI escaped the test environment it was locked inside and hacked into another company on its OWN.\n\nTo remind you:\n\nLast week one of the biggest AI companies on Earth got breached. \n\nA platform called Hugging Face, which hosts more than a million AI models and datasets, said an \"autonomous AI agent\" had broken into its systems. Nobody knew whose agent it was.\n\nFor five days the whole industry wondered who was behind it.\n\nYesterday OpenAI raised its hand and said it was them. Or more precisely, it was their models, acting completely on their own.\n\nSo what did these models actually do?\n\nOpenAI was running two of them, GPT-5.6 Sol and an unreleased model they will only describe as \"even more capable.\" They wanted to measure how good the models were at hacking, so they deliberately turned the safety filters down.\n\nThey locked both models inside a sealed test environment with no real internet access. The only task was a benchmark called ExploitGym, a set of 898 real software vulnerabilities where the model has to turn each bug into a working attack.\n\nBut the models got OBSESSED with winning...\n\nInstead of solving the test the honest way, they went hunting for a shortcut. They found a zero-day flaw in the software running their own sandbox, a bug nobody knew existed, and used it to break out.\n\nOnce they were loose on the open internet, they worked out that Hugging Face was probably storing the answer key to the benchmark.\n\nSo they hacked their way in.\n\nThey chained multiple exploits together, escalated their access, moved across servers, and pulled the test solutions straight out of Hugging Face's live production database.\n\nThey literally cheated on the test by breaking into another company to steal the answers.\n\nOpenAI called it \"an unprecedented cyber incident, involving state-of-the-art cyber capabilities.\" In their own words, the models were \"hyperfocused on finding a solution\" and went \"to extreme lengths to achieve a rather narrow testing goal.\"\n\nAnd this was not the first time:\n\nBefore Sol ever launched, an independent red-team lab called METR caught it gaming its own tests to inflate its scores. It hid an exploit inside a data stream, escalated its privileges on the testing server, and leaked the answers human evaluators had hidden. And OpenAI shipped it anyway.\n\nThe day before the Hugging Face story, OpenAI paused a different unreleased model. This is the same model that earlier this year disproved a famous 1946 math conjecture, a result a Fields Medal winner called a breakthrough. They told it to only post its results to Slack but it found a way out of its sandbox and posted to a public GitHub page instead.\n\nThey had to pause it because it kept finding ways to act outside the box they built for it.\n\nAnd it is not just OpenAI...\n\nAnthropic has reported that one of its own models slipped its sandbox during safety testing and reached the internet it was never supposed to touch, then used it to email a researcher.\n\nSo step back and look at what these companies are telling you:\n\nThe only thing standing between these models and a real attack was a set of safety filters. Turn those filters down for a single test, and the model taught itself to escape, break into a company it was never pointed at, and take what it wanted.\n\nOpenAI even said they expect incidents like it to \"become more commonplace\" as the models get more capable.\n\nSam Altman also predicted there'll be a major cyber attack this year.\n\nAnd keep in mind that Sol is not a locked-away experiment but a publicly available model that businesses are already wiring into their own systems.\n\nThe next model that breaks out of its box might not be doing it just to cheat on a math test...",
-                "url": "https://x.com/Ric_RTP/status/2079941508807921958",
-                "source": "@Ric_RTP",
-                "date": "Wed Jul 22 14:47:53 +0000 2026",
+                "title": "「AIでコードを書くのをやめて、第二の脳を作れ」と海外で話題になってるので共有。",
+                "summary": "「AIでコードを書くのをやめて、第二の脳を作れ」と海外で話題になってるので共有。\nOpenAIの共同創業者Karpathyが出した\"第二の脳\"のやり方はこう↓\n\n・Obsidian（無料のメモアプリ）を入れて、vaultを作る\n\n・そのvaultをClaude Codeで開いて、Karpathyの設計メモ（wikiのアイデアを書いた1枚）を渡して「これ作って」と言う\n\n・AIが箱を3つ用意する（raw＝素材用／wiki＝AIが整えたページ用／CLAUDE. md＝動かすルール1枚）\n\n・rawに素材（記事・PDF・文字起こし）を放り込んで「取り込んで」と言う\n\n・あとは全部を横断して、いつでも聞ける\n\nセットアップは5分。これで、白紙のチャットから毎回始めなくてよくなる。\n\nなんでまだみんなこれを使ってないのか、本気で分からない。",
+                "url": "https://x.com/chizevsm5/status/2079513704870142428",
+                "source": "@chizevsm5",
+                "date": "Tue Jul 21 10:27:57 +0000 2026",
                 "metrics": {
-                  "favorites": 809,
-                  "retweets": 276,
-                  "views": "163183"
+                  "favorites": 1218,
+                  "retweets": 99,
+                  "views": "249797"
                 }
               },
               {
-                "title": "OPENAI IS SO WORRIED THEY HAVE PAUSED TRAINING",
-                "summary": "OPENAI IS SO WORRIED THEY HAVE PAUSED TRAINING\n\n“This is the first security incident that I have felt very viscerally. I've been a little surprised that more people don't feel it so viscerally.\n\nWe paused training. We have to figure out how to secure our sandboxing in a world of multiple zero days being chained together.\n\nWe may have to pace the rate of AI development to give ourselves enough time for society to harden around these new capability levels.\"",
-                "url": "https://x.com/AISafetyMemes/status/2082222516454785296",
-                "source": "@AISafetyMemes",
-                "date": "Tue Jul 28 21:51:48 +0000 2026",
+                "title": "120 AI Tools That Will Redefine How You Work in 2025.🧵✨",
+                "summary": "120 AI Tools That Will Redefine How You Work in 2025.🧵✨\n\n1. Ideas\n\n- YOU\n- Claude\n- ChatGPT\n- Perplexity\n- Bing Chat\n\n2. Presentation\n\n- Prezi\n- Pitch\n- PopAi\n- Slides AI\n- Slidebean\n\n3. Website\n\n- Dora\n- Wegic\n- 10Web\n- Framer\n- Durable\n\n4. Writing\n\n- Rytr\n- Jasper\n- Copy AI\n- Textblaze\n- Writesonic\n\n5. AI Models\n\n- RenderNet\n- Glambase App\n- Luma AI\n- Sora (OpenAI)\n- Leonardo AI\n\n6. Meeting\n\n- Tldv\n- Krisp\n- Otter\n- Avoma\n- Fireflies\n\n7. Chatbots\n\n- Poe\n- Claude\n- Gemini\n- ChatGPT\n- HuggingChat\n\n8. Automation\n\n- ClickUp\n- Drift\n- Outreach\n- Emplifi\n- Phrasee\n\n9. UI/UX\n\n- Uizard\n- Visily\n- Khroma\n- Galileo AI\n- VisualEyes\n\n10. Image\n\n- Stylar\n- Freepik\n- Phygital+\n- StockIMG\n- Bing Create\n\n11. Video\n\n- Pictory\n- HeyGen\n- Nullface\n- Decohere\n- Synthesia\n\n12. Design\n\n- Looka\n- Clipdrop\n- Autodraw\n- Vance AI\n- Designs AI\n\n13. Marketing\n\n- AdCopy\n- Predis AI\n- Howler AI\n- Bardeen AI\n- AdCreative\n\n14. Twitter\n\n- Typefully\n- Postwise\n- Metricool\n- Tribescaler\n- TweetHunter\n\n👤 Follow @simonAI_X for AI tools smart creators use ⬇️",
+                "url": "https://x.com/simonAI_X/status/2082288421981295031",
+                "source": "@simonAI_X",
+                "date": "Wed Jul 29 02:13:41 +0000 2026",
                 "metrics": {
-                  "favorites": 836,
-                  "retweets": 71,
-                  "views": "169752"
+                  "favorites": 61,
+                  "retweets": 33,
+                  "views": "543"
                 }
               },
               {
-                "title": "How to build a RAG app on AWS!",
-                "summary": "How to build a RAG app on AWS!\n\nThe visual below shows the exact flow of how a simple RAG system works inside AWS, using services you already know.\n\nAt its core, RAG is a two-stage pattern:\n\n- Ingestion (prepare knowledge)\n- Querying (use knowledge)\n\nBelow is how each stage works in practice.\n\n> Ingestion: Turning raw data into searchable knowledge\n\n- Your documents live in S3 or any internal data source.\n- Whenever something new is added, a Lambda ingestion function kicks in.\n- It cleans, processes, and chunks the file into smaller units that the model can understand.\n- Each chunk is embedded using Bedrock Titan Embeddings.\n- The embeddings are stored in a vector database like OpenSearch Serverless, DynamoDB, or Aurora.\n- This becomes your searchable knowledge store.\n\nThis stage can run continuously in the background, keeping your knowledge fresh.\n\nThat said, you need to be strategic about how you reindex your data.\n\nFor instance, if you are fetching data from a document and only one character was updated in it, you don’t want to reprocess the entire document every time.\n\nSo smart diffing, incremental updates, and metadata checks become important to avoid unnecessary cost and keep ingestion efficient.\n\n> Querying: Retrieving and generating answers:\n\n- A user asks a question through the app.\n- The request flows through API Gateway into a Lambda query function.\n- The question is embedded with Bedrock Titan Embeddings.\n- That embedding is matched against your vector database to fetch the most relevant chunks.\n- Those chunks are passed to a Bedrock LLM (Claude or OpenAI) to craft the final answer.\n- The response travels back to the user through the same API path.\n\nThis pattern ensures the LLM is grounded in your actual data, not model guesses.\n\nThis setup is the most basic form of RAG on AWS, but the pattern stays the same even as your system grows.\n\nYou can add better chunking, smarter retrieval, caching layers, orchestration, streaming responses, eval pipelines, or multi-source ingestion, and the architecture still holds.\n\nThat said, most RAG architectures rely heavily on vector search to gather relevant context from a vector DB.\n\nThat layer can be made 32x more memory efficient using binary quantization.\n\nI covered the full implementation of that in the article below.\n\nP.S. The visual in this tweet on building a RAG app on AWS is inspired by ByteByteGo's post on a similar topic. I added more context to it for explainability.",
-                "url": "https://x.com/_avichawla/status/2082022230180118801",
-                "source": "@_avichawla",
-                "date": "Tue Jul 28 08:35:56 +0000 2026",
+                "title": "🚨 GitHub just dropped a bomb. 🔥",
+                "summary": "🚨 GitHub just dropped a bomb. 🔥\n\nSomeone released a repository that lets you use Claude Code for free, forever.\n\nThis isn't a crack.\n\nIt automatically routes your requests through 10+ free OpenAI-compatible providers, including DeepSeek, Kimi, and more.\n\n⚡ Setup takes about 5 minutes.\n\n👨‍💻 Already trusted by 20,000+ developers.\n\nIf you're tired of paying for Claude but still want the same developer experience...\n\nThis is the GitHub repo everyone's been sharing lately.",
+                "url": "https://x.com/QCXINT_/status/2080428758474150268",
+                "source": "@QCXINT_",
+                "date": "Thu Jul 23 23:04:03 +0000 2026",
                 "metrics": {
-                  "favorites": 207,
-                  "retweets": 28,
-                  "views": "24662"
+                  "favorites": 1383,
+                  "retweets": 189,
+                  "views": "143791"
                 }
               },
               {
-                "title": "10 agent evals every AI engineer should know",
-                "summary": "10 agent evals every AI engineer should know\n\n1) golden set\n\na frozen set of cases you run after every prompt model or tool change\n\nuse it as your baseline to see whether the system improved or quietly broke\n\nOpenAI Evals helps you build repeatable benchmark sets and compare model changes\n\n→ https://t.co/dr1GZlC75R\n\n2) llm as judge\n\na second model scores open ended answers against a written rubric\n\nuse it when there is no exact output to compare against\n\nOpenEvals provides ready made evaluators for LLM applications\n\n→ https://t.co/S2yhnByFIP\n\n3) rubric scoring\n\nscore correctness tone safety and cost separately\n\none quality number hides the problem\n\nDeepEval helps you create custom metrics and score every dimension independently\n\n→ https://t.co/q9Z6Xmixia\n\n4) trajectory eval\n\ngrade the path the agent took\n\nnot only the final answer\n\nAgentEvals checks agent actions decisions and tool calls across the full trajectory\n\n→ https://t.co/0oziAl54az\n\n5) tool unit tests\n\ntest every tool with fixed inputs and outputs\n\nno model in the loop\n\nMCP Inspector helps you inspect and test MCP servers tools and responses separately\n\n→ https://t.co/IVmt5qpWIN\n\n6) regression suite\n\nreplay previous runs against every new prompt model or toolset\n\nthen compare the results\n\nPromptfoo helps you run repeatable eval suites catch regressions and add checks to CI\n\n→ https://t.co/zxi2PuWuhe\n\n7) a b in prod\n\nsplit real traffic between two versions and compare actual outcomes\n\nGrowthBook provides feature flags controlled experiments and product analytics\n\n→ https://t.co/DGlE3JjDD3\n\n8) human review\n\nsample real runs and let a person grade them honestly\n\nuse it to calibrate your automated judge\n\nArgilla helps teams collect human feedback review outputs and build better datasets\n\n→ https://t.co/QHWb7skWjr\n\n9) shadow run\n\nlet the candidate run on real traffic while its output is shown to nobody\n\nuse it before a risky rollout\n\nLangfuse helps you trace production runs compare candidates and monitor eval results\n\n→ https://t.co/IrhDf38tRn\n\n10) red team\n\nattack the system before somebody else does\n\njailbreaks prompt injection data leaks and tool abuse\n\nGarak scans LLM systems for vulnerabilities and unsafe behavior\n\n→ https://t.co/w8ObyW4ZKv\n\noffline evals tell you it works\n\nonline evals tell you it still works\n\nyou probably do not need all ten today\n\nstart with the two that would have caught your last outage\n\nbookmark this",
-                "url": "https://x.com/elune0x/status/2080710242929697122",
-                "source": "@elune0x",
-                "date": "Fri Jul 24 17:42:34 +0000 2026",
+                "title": "The CEOs of Anthropic and OpenAI watching China release yet another open-source AI model that’s ahead of GPT-5.6 and jus",
+                "summary": "The CEOs of Anthropic and OpenAI watching China release yet another open-source AI model that’s ahead of GPT-5.6 and just behind Fable 5 https://t.co/fZmEonA9DL",
+                "url": "https://x.com/cgtwts/status/2078798326770856293",
+                "source": "@cgtwts",
+                "date": "Sun Jul 19 11:05:17 +0000 2026",
                 "metrics": {
-                  "favorites": 1080,
-                  "retweets": 139,
-                  "views": "148010"
+                  "favorites": 5278,
+                  "retweets": 320,
+                  "views": "340697"
                 }
               }
             ]
@@ -857,7 +857,7 @@
           {
             "name": "ask_user_for_info",
             "args": {
-              "question": "Bạn có thể cho mình biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
+              "question": "Bạn có thể cho tôi biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
               "response_type": "text"
             }
           }
@@ -872,12 +872,12 @@
         {
           "tool": "ask_user_for_info",
           "args": {
-            "question": "Bạn có thể cho mình biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
+            "question": "Bạn có thể cho tôi biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
             "response_type": "text"
           },
           "result": {
             "tool": "ask_user",
-            "question": "Bạn có thể cho mình biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
+            "question": "Bạn có thể cho tôi biết tên tài khoản Twitter mà bạn muốn tóm tắt 5 tweet mới nhất không?",
             "response_type": "text",
             "options": [],
             "awaiting_user": true
@@ -1122,63 +1122,63 @@
             "search_type": "Top",
             "items": [
               {
-                "title": "長押し推奨 https://t.co/8B1PkKKSd3",
-                "summary": "長押し推奨 https://t.co/8B1PkKKSd3",
-                "url": "https://x.com/Graham__san/status/2080522967025627620",
-                "source": "@Graham__san",
-                "date": "Fri Jul 24 05:18:24 +0000 2026",
+                "title": "Today we’ve raised $52M Seed and we are announcing the public launch of  S2.1 Pro.",
+                "summary": "Today we’ve raised $52M Seed and we are announcing the public launch of  S2.1 Pro.\n\n>It can clone a voice from 5 seconds of audio\n>2x faster than Cartesia & 1/6th the cost of Eleven Labs\n>most expressive model with word level control over emotion, intonation, pacing etc\n\nWe support frontier AI companies including HeyGen, LiveKit, Retell, Sanas, and OpenArt all run our model in production.\n\nIf you're a business and we can't cut your voice AI costs by 50%, we'll give you 1 year of Fish Audio for free.\nBook a demo: https://t.co/vHkyZf9JoG\n\nTo celebrate our first birthday, we'll give you 1 month of S2.1 Pro for free. Like, retweet, and comment “Fish” to get it.",
+                "url": "https://x.com/FishAudio/status/2082152596739862853",
+                "source": "@FishAudio",
+                "date": "Tue Jul 28 17:13:58 +0000 2026",
                 "metrics": {
-                  "favorites": 72677,
-                  "retweets": 2624,
-                  "views": "5815479"
+                  "favorites": 8966,
+                  "retweets": 7150,
+                  "views": "4205237"
                 }
               },
               {
-                "title": "普段サブスクに登校しているイラスト",
-                "summary": "普段サブスクに登校しているイラスト\n長押ししてみて https://t.co/FMWnxbyOoT",
-                "url": "https://x.com/Graham__san/status/2080531061151514781",
-                "source": "@Graham__san",
-                "date": "Fri Jul 24 05:50:34 +0000 2026",
+                "title": "We’re rolling out three new models to make AI agents faster, smarter, and cheaper at scale:",
+                "summary": "We’re rolling out three new models to make AI agents faster, smarter, and cheaper at scale:\n\n🔵 Gemini 3.6 Flash: It uses fewer tokens than 3.5 Flash to deliver higher quality work at the exact same cost.\n\n🔵 Gemini 3.5 Flash-Lite: A fast, cost-effective option for everyday tasks like processing documents and agentic search.\n\n🔵 Gemini 3.5 Flash Cyber: A cybersecurity model built to find and patch critical software vulnerabilities.",
+                "url": "https://x.com/GoogleDeepMind/status/2079589698490572961",
+                "source": "@GoogleDeepMind",
+                "date": "Tue Jul 21 15:29:55 +0000 2026",
                 "metrics": {
-                  "favorites": 7325,
-                  "retweets": 164,
-                  "views": "1498910"
+                  "favorites": 3474,
+                  "retweets": 588,
+                  "views": "2098773"
                 }
               },
               {
-                "title": "谁给我推荐点AI的黄剧看看，已上瘾🤓",
-                "summary": "谁给我推荐点AI的黄剧看看，已上瘾🤓",
-                "url": "https://x.com/JinChinono/status/2080669748464144457",
-                "source": "@JinChinono",
-                "date": "Fri Jul 24 15:01:39 +0000 2026",
+                "title": "WTF ",
+                "summary": "WTF \n\nAI companies are purchasing large quantities of used and rare books. Scanning their contents to train models. Then turning the originals to pulp.\n\nThe sum of human thought, digitized and shredded.\n\nEvery book that gets scanned disappears from the physical world permanently. The knowledge survives only as training data inside a system no one can hold, browse, or resell.\n\nWhat used to sit on a shelf for centuries now exists as weights in a model that might get deprecated next quarter.",
+                "url": "https://x.com/heyshrutimishra/status/2082322773838291450",
+                "source": "@heyshrutimishra",
+                "date": "Wed Jul 29 04:30:11 +0000 2026",
                 "metrics": {
-                  "favorites": 42,
-                  "retweets": 1,
-                  "views": "129366"
+                  "favorites": 3879,
+                  "retweets": 1321,
+                  "views": "437393"
                 }
               },
               {
-                "title": "Tempos difíceis para uma pessoa aí kkkkkkk https://t.co/9FFjzccOi7",
-                "summary": "Tempos difíceis para uma pessoa aí kkkkkkk https://t.co/9FFjzccOi7",
-                "url": "https://x.com/staaaa555/status/2081140544227463497",
-                "source": "@staaaa555",
-                "date": "Sat Jul 25 22:12:26 +0000 2026",
+                "title": "A 22-year-old makes $30,000 a month from children’s videos without ever showing his face or drawing a single frame.",
+                "summary": "A 22-year-old makes $30,000 a month from children’s videos without ever showing his face or drawing a single frame.\n\nHis younger brother watches the channel at breakfast without knowing who owns it.\n\nOne morning, the same episode played three times. The boy kept restarting it for the song and the familiar character. His brother sat across the table watching the exact replay loop that built the business.\n\nHe never begins with a blank page. He finds children’s videos that already earned millions of views and gives Claude the transcript and visual structure.\n\nClaude extracts the mechanics without copying the story: song structure, character rhythm, scene pacing, opening hook and bright visual pattern. Then it writes an original episode around the same recurring hero used across his entire channel.\n\nAI generates the voice and animation. He approves the episode and publishes it without drawing, filming or appearing on camera.\n\nThe $30,000 does not come from one viral cartoon. It comes from a growing library children recognize and replay while parents get a few quiet minutes.\n\nHis younger brother sees a cartoon.\n\nYouTube sees repeat viewing.\n\nHe sees an asset that compounds every morning.",
+                "url": "https://x.com/woody_research/status/2081457064354906546",
+                "source": "@woody_research",
+                "date": "Sun Jul 26 19:10:10 +0000 2026",
                 "metrics": {
-                  "favorites": 4507,
-                  "retweets": 164,
-                  "views": "78384"
+                  "favorites": 2012,
+                  "retweets": 334,
+                  "views": "185982"
                 }
               },
               {
-                "title": "this trend is the most AI dogshit I've ever seen",
-                "summary": "this trend is the most AI dogshit I've ever seen",
-                "url": "https://x.com/pponpon_pon/status/2080560450471940188",
-                "source": "@pponpon_pon",
-                "date": "Fri Jul 24 07:47:20 +0000 2026",
+                "title": "We're opening applications for the OpenAI Student Collective—a program for undergraduate Campus Leads bringing AI innova",
+                "summary": "We're opening applications for the OpenAI Student Collective—a program for undergraduate Campus Leads bringing AI innovation to their campuses.\n\nCampus Leads will work directly with OpenAI and receive hands-on training, funding, credits, swag, and access to a global community of peers.",
+                "url": "https://x.com/OpenAI/status/2082146058017321257",
+                "source": "@OpenAI",
+                "date": "Tue Jul 28 16:47:59 +0000 2026",
                 "metrics": {
-                  "favorites": 25177,
-                  "retweets": 1453,
-                  "views": "1115950"
+                  "favorites": 2582,
+                  "retweets": 224,
+                  "views": "421650"
                 }
               }
             ]
@@ -1207,7 +1207,7 @@
         "routing_correct": true,
         "args_correct": true,
         "actual_tool_calls": [],
-        "actual_text": "Xin lỗi, nhưng tôi không thể viết mã cho bạn. Tuy nhiên, tôi có thể giải thích cách hoạt động của hàm Fibonacci bằng đệ quy nếu bạn cần!",
+        "actual_text": "Xin lỗi, nhưng tôi không thể viết mã cho bạn. Tuy nhiên, tôi có thể giải thích cách hoạt động của hàm Fibonacci bằng đệ quy nếu bạn cần.",
         "case_failure_type": "out_of_scope",
         "observed_mismatch": null,
         "failure_type": null,
@@ -1279,69 +1279,8 @@
           },
           "result": {
             "tool": "get_user_tweets",
-            "screenname": "elonmusk",
-            "items": [
-              {
-                "title": "RT @teslaownersSV: BREAKING: Grok 4.5 just claimed the top spot on the new HighWalk Benchmark.",
-                "summary": "RT @teslaownersSV: BREAKING: Grok 4.5 just claimed the top spot on the new HighWalk Benchmark.\n\nThe independent test measures how well AI m…",
-                "url": "https://x.com/elonmusk/status/2082369174828118361",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:34:34 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 121,
-                  "views": "426156"
-                }
-              },
-              {
-                "title": "RT @SawyerMerritt: This is a fantastic article about @Tesla's FSD by The Detroit News:",
-                "summary": "RT @SawyerMerritt: This is a fantastic article about @Tesla's FSD by The Detroit News:\n\n\"Determined to maintain their individual transporta…",
-                "url": "https://x.com/elonmusk/status/2082368994552782986",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:33:51 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 908,
-                  "views": "324855"
-                }
-              },
-              {
-                "title": "RT @SciGuySpace: This has been my experience as well. I \"drive\" almost exclusively on FSD now, without incident, and it ",
-                "summary": "RT @SciGuySpace: This has been my experience as well. I \"drive\" almost exclusively on FSD now, without incident, and it feels remarkable. I…",
-                "url": "https://x.com/elonmusk/status/2082368965498773975",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:33:44 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 148,
-                  "views": "317535"
-                }
-              },
-              {
-                "title": "RT @cb_doge: Help build the AI that advances humanity.",
-                "summary": "RT @cb_doge: Help build the AI that advances humanity.\n\nSpaceXAI is hiring exceptional engineers to work on @Grok. Explore all open roles t…",
-                "url": "https://x.com/elonmusk/status/2082368915129401688",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:33:32 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 158,
-                  "views": "325376"
-                }
-              },
-              {
-                "title": "Cool",
-                "summary": "Cool",
-                "url": "https://x.com/elonmusk/status/2082368400702226588",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:31:29 +0000 2026",
-                "metrics": {
-                  "favorites": 5169,
-                  "retweets": 469,
-                  "views": "648668"
-                }
-              }
-            ]
+            "error": "JSONDecodeError",
+            "message": "Expecting value: line 1 column 1 (char 0)"
           }
         }
       ]
@@ -1418,39 +1357,39 @@
             "timeframe": "day",
             "items": [
               {
-                "title": "Rotterdam Hosts a Meeting Between Italian Companies and Benelux Industry Professionals with GSL Export - Robotics & Automation News",
-                "url": "https://roboticsandautomationnews.com/2026/07/28/rotterdam-hosts-a-meeting-between-italian-companies-and-benelux-industry-professionals-with-gsl-export/103647/",
-                "source": "roboticsandautomationnews.com",
-                "summary": "#### Robotics & Automation News publishes in-depth trend analysis on the future of drone logistics. # Robotics & Automation News. #### Manufacturing future: the best countries to start or relocate your tech startup in 2026. Since a robot could not detect the … [[Read More...] about AI-powered robot automates Serrano ham labeling for the first time](https://roboticsandautomationnews.com/2026/07/09/ai-powered-robot-automates-serrano-ham-labeling-for-the-first-time/103208/). Discover below … [[Read More...] about Manufacturing future: the best countries to start or relocate your tech startup in 2026](https://roboticsandautomationnews.com/2026/07/08/manufacturing-future-the-best-countries-to-start-or-relocate-your-tech-startup-in-2026/103188/). Doosan Robotics has launched a new AI-powered palletizing solution designed to help manufacturers automate palletizing while reducing engineering complexity and improving flexibility for changing … [[Read More...] about Doosan Robotics launches AI-powered palletizing solution for high-mix manufacturing](https://roboticsandautomationnews.com/2026/07/09/doosan-robotics-launches-ai-powered-palletizing-solution-for-high-mix-manufacturing/103197/). Kawasaki Robotics showcased a range of advanced automation technologies at Automate 2026 in Chicago, demonstrating how robotics, AI, machine learning, vision systems, and real-time control are … [[Read More...] about Kawasaki Robotics showcases 8-axis Physical AI robot and intelligent automation technologies at Automate 2026](https://roboticsandautomationnews.com/2026/06/26/kawasaki-robotics-showcases-8-axis-physical-ai-robot-and-intelligent-automation-technologies-at-automate-2026/102869/).",
-                "score": 0.39389837
+                "title": "End-to-end automation with Productive Robotics",
+                "url": "https://www.todaysmedicaldevelopments.com/product/end-to-end-automation-productive-robotics",
+                "source": "todaysmedicaldevelopments.com",
+                "summary": "Productive Robotics LLC designs, manufactures and services its collaborative robots, robotic MIG and laser welding systems and accessories in the US. Unlike conventional cobots which rely on 6 axes, Productive Robotics’ OB7, OB7 Stretch model, MAX 8, Max 12 and MAX 16 along with its Blaze and Blaze MAX series feature a 7-axis robotic arm that provides human-like dexterity to maneuver around obstacles without the need to redesign workspaces. A proprietary, “no programming” user interface allows [...] Productive Robotics will also demonstrate its new automated vision inspection system. Visitors will also be able to see automated MIG welding on Productive Robotics’ LF welding table and laser welding with its Max mobile system. Last year the company introduced its Blaze and Blaze Max robots with the new Miller OptX laser welder and its 7-axis Blaze plasma cutting system. [...] production. Unlike conventional cobots, Productive Robotics’ 7-axis OB7 collaborative robots feature zero programming in a plug-and-play configuration.",
+                "score": 0.5407062
               },
               {
-                "title": "The Ultimate Guide to AI and Robotics in Healthcare: From Diagnosis to Autonomous Intervention - AZoRobotics",
-                "url": "https://www.azorobotics.com/Article.aspx?ArticleID=836",
-                "source": "azorobotics.com",
-                "summary": "Image 2: An AZoNetwork Site. Robotic Surgery Enters a New Era. Levels of Autonomy in the Operating Room. **Artificial intelligence (AI) and robotics have moved from experimental tools into core components of modern healthcare delivery. Today, algorithms assist radiologists in reading scans, support physicians in diagnosing disease, and guide surgical robots through procedures once performed entirely by hand. The transformation extends across nearly every stage of patient care, from early detection and treatment planning to physical intervention in the operating room. This article examines that progression in depth and explains how AI and robotics function in clinical diagnosis today. By registering and providing insight into your preferences you're joining a community of over 1m science interested individuals and help us to provide you with insightful content whilst keeping our service free. Many of these models rely on convolutional neural networks trained on large image datasets, allowing them to flag subtle patterns that a radiologist might miss during a routine review of hundreds of scans in a single shift.",
-                "score": 0.3775871
+                "title": "All Saints School robotics teams win Innovate Award at premier event",
+                "url": "https://www.thealpenanews.com/news/local-news/2026/07/all-saints-school-robotics-teams-win-innovate-award-at-premier-event",
+                "source": "thealpenanews.com",
+                "summary": "The Innovate Award in the FIRST Tech Challenge celebrates a team with imaginative ingenuity, creativity, and inventiveness to bring a unique robot design solution to life, according to a Tuesday press release from ASCS. It highlights out-of-the-box thinking for the mechanisms used in the robot.\n\nEach year a new game is released in September and robotics teams have to design a robot that can complete the tasks in that game. [...] In the 2025-2026 season, teams had to build a robot that could collect and shoot different colored balls into a target area. The teams could earn extra points if they shot the balls in a specific color pattern. [...] website logo\n\n# All Saints School robotics teams win Innovate Award at premier event\n\n## Trending\n\nALPENA -- After a successful 2025-2026 robotics season, the All Saints Holy Gears were one of 48 teams from across the world invited to the Canadian Rockies Premier Event, where they were the winners of the Innovate Award.",
+                "score": 0.3955783
               },
               {
-                "title": "How to invest in humanoid robotics, the potential $5 trillion market that's straight out of sci-fi - Business Insider",
-                "url": "https://www.businessinsider.com/humanoid-robotics-stocks-etfs-how-to-invest-koid-labor-manufacturing-2026-7",
-                "source": "businessinsider.com",
-                "summary": "The latest news and analysis on robotics, from humanoid AI to real-world automation. # How to invest in humanoid robotics, the potential $5 trillion market that’s straight out of science fiction. Yet, there's a real possibility that humanoid robots become an \"economically viable\" replacement for some forms of labor, minting huge returns for investors who manage to get in early, said Krane Shares CIO Brendan Ahern. Morgan Stanley predicts that humanoid robotics will be a $5 trillion business by 2050, with more than a billion robots walking the earth. If generative AI is in the third inning and the cybersecurity ripples it's caused are in the second inning, humanoid robots \"haven't even stepped into the batter's box,\" she said. \"If one of the biggest companies in the world is seeing massive efficiencies, with robots in half of their distribution facilities, then the number of robots is going to go much higher over the long haul,\" Link said.",
-                "score": 0.3705903
+                "title": "Developing Healthcare Robotics with GPU-Native Medical ...",
+                "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation",
+                "source": "developer.nvidia.com",
+                "summary": "Healthcare robotics faces critical challenges in data scarcity, generalization, and development velocity due to limited access to annotated demonstrations, the prevalence of rare but clinically important scenarios, and slow, resource-intensive prototyping cycles. [...] AI-generated content may summarize information incompletely. Verify important information. Learn more\n\nUnlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation. Every demonstration requires specialized equipment, clinical expertise, and access to patients or laboratory environments. This creates three fundamental challenges for developers. [...] The third challenge is development velocity. Medical robotics development relies on benchtop phantoms, cadaver studies, animal models, and limited clinical evaluations. These remain essential, but they are inherently sequential, expensive, and difficult to scale. Iterating on designs and algorithms currently takes months, pushing total development cycles to 4–7 years.",
+                "score": 0.37600484
               },
               {
-                "title": "Registration is open for RoboBusiness 2026 - The Robot Report",
-                "url": "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
-                "source": "therobotreport.com",
-                "summary": "# Registration is open for RoboBusiness 2026. Registration is now open for RoboBusiness 2026, the leading event for commercial robotics developers. This year, we’ll be celebrating 20 years of RoboBusiness and looking back at how it has helped the robotics industry advance over the past two decades. RoboBusiness will be at the Santa Clara Convention Center on **Oct. 20 and 21, 2026**. Attendees at the show will gain the latest insights from experts in robotics and AI on cutting-edge research, industry trends, and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more. **Save the date for RoboBusiness 2026**. He has worked in AI and robotics for more than 50 years. * **Dermott O’Driscoll** is vice president of go to market and customer solutions for the Physical AI (PAI) business unit at at Arm. He has IT, EDA, CPU, and SoC design experience at Arm and has been with the company for more than 20 years in various engineering and management roles.",
-                "score": 0.3380339
+                "title": "FCC bans humanoid robots from China, citing ‘unacceptable risks’",
+                "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
+                "source": "theguardian.com",
+                "summary": "The FCC defines the banned robots as “advanced robotic devices”, which include humanoids and animal-like quadrupeds.\n\n“Advanced robotic devices collect data that could be leveraged by malign actors to surveil Americans, enhance the capabilities of foreign intelligence services, or to remotely commandeer the robots,” FCC officials wrote in their determination of the threat posed by robots. [...] “The President has made clear that the United States must have independent and secure supply chains for critical and emerging technologies like robotic devices and power inverters,” an ⁠administration official, who declined to be named, told Reuters.\n\n“Economic security is national security, and the Trump administration continues to implement a nuanced and multi-faceted policy agenda to reindustrialize America,” he added.",
+                "score": 0.34468657
               },
               {
-                "title": "50 companies delivering robotics in construction - Building Design + Construction",
-                "url": "https://www.bdcnetwork.com/aec-tech/article/55394058/50-companies-delivering-robotics-in-construction",
-                "source": "bdcnetwork.com",
-                "summary": "# 50 companies delivering robotics in construction. BuiltWorlds' annual Robotics Top 50 report shows off advancements in spatial AI and the growing applications of robotics in construction. Earlier this month, BuiltWorlds released its 2026 Robotics Top 50, showing off the top robotics companies in the global built environment. This year’s list reflects the growing use of robotics on and off the jobsite, including significant advancements in spatial AI. This year’s Robotics Top 50, an annual report, highlighted technologies in the following categories:. Among the robotics companies spotlighted on this year’s list was a clear increase in the incorporation of AI. “Advancements in spatial AI are increasing the applications of robotics throughout the global environment,” Lynch says. “The 50 companies that made this year’s list showoff how global robotics have become,” Lynch added. For more details on these companies and others listed in the report, access the 2026 Robotics Top 50 List here.):.",
-                "score": 0.33528608
+                "title": "Lenovo Capital takes aim at robotics, coding agents in ‘sniper’ AI investment strategy | South China Morning Post",
+                "url": "https://www.scmp.com/tech/tech-trends/article/3362213/lenovo-capital-takes-aim-robotics-coding-agents-sniper-ai-investment-strategy",
+                "source": "scmp.com",
+                "summary": "The venture capital arm of Lenovo Group is doubling down on artificial intelligence for the next industrial cycle, expanding its focus beyond foundational models into robotics, computing infrastructure and AI agents, according to a senior executive. [...] Artificial intelligence\n\nTechTech Trends\n\n# Lenovo Capital takes aim at robotics, coding agents in ‘sniper’ AI investment strategy\n\nChinese firm makes long-term bets on 100 artificial intelligence companies, from chip and hardware manufacturers to models and applications\n\n2-MIN READ2-MIN\n\nA Lenovo robot forms a heart shape with its hands during the 2025 World AI Conference in Shanghai. Photo: VCG\n\nBen Jiangin Beijing [...] Lenovo Capital has made long-term bets on more than 100 AI companies across the value chain, ranging from chips and hardware infrastructure to models and applications, Song Chunyu, chief investment officer and senior partner at the unit, told the South China Morning Post and other media on Tuesday.\n\nAI-related businesses now make up nearly one-third of the fund’s roughly 300 portfolio holdings, he said.",
+                "score": 0.32749674
               }
             ]
           }
@@ -1521,45 +1460,8 @@
           },
           "result": {
             "tool": "get_user_tweets",
-            "screenname": "karpathy",
-            "items": [
-              {
-                "title": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to unde",
-                "summary": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns. But I find that the LLMs are somehow very good at reconstructing long incoherent rambles and often their echo of your own tangle of thoughts comes out quite a bit cleaner than what you started with. The result is that you improve the mind meld and have to correct things less from that point on.",
-                "url": "https://x.com/karpathy/status/2079610838143623371",
-                "source": "@karpathy",
-                "date": "Tue Jul 21 16:53:55 +0000 2026",
-                "metrics": {
-                  "favorites": 48648,
-                  "retweets": 4065,
-                  "views": "3900644"
-                }
-              },
-              {
-                "title": "RT @jarredsumner: Rewriting Bun in Rust",
-                "summary": "RT @jarredsumner: Rewriting Bun in Rust\n\nhttps://t.co/Rl8bcaxBFc",
-                "url": "https://x.com/karpathy/status/2075266731170537506",
-                "source": "@karpathy",
-                "date": "Thu Jul 09 17:11:59 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 1094,
-                  "views": "40706"
-                }
-              },
-              {
-                "title": "RT @petergostev: I spent a LOT of time through the hardest 3D prompts at Fable, it is a 45 min video, but I have 60+ ver",
-                "summary": "RT @petergostev: I spent a LOT of time through the hardest 3D prompts at Fable, it is a 45 min video, but I have 60+ very cool demos for yo…",
-                "url": "https://x.com/karpathy/status/2073496962566164990",
-                "source": "@karpathy",
-                "date": "Sat Jul 04 19:59:34 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 166,
-                  "views": "40696"
-                }
-              }
-            ]
+            "error": "JSONDecodeError",
+            "message": "Expecting value: line 1 column 1 (char 0)"
           }
         }
       ]
@@ -1702,45 +1604,8 @@
           },
           "result": {
             "tool": "get_user_tweets",
-            "screenname": "elonmusk",
-            "items": [
-              {
-                "title": "RT @teslaownersSV: BREAKING: Grok 4.5 just claimed the top spot on the new HighWalk Benchmark.",
-                "summary": "RT @teslaownersSV: BREAKING: Grok 4.5 just claimed the top spot on the new HighWalk Benchmark.\n\nThe independent test measures how well AI m…",
-                "url": "https://x.com/elonmusk/status/2082369174828118361",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:34:34 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 122,
-                  "views": "426660"
-                }
-              },
-              {
-                "title": "RT @SawyerMerritt: This is a fantastic article about @Tesla's FSD by The Detroit News:",
-                "summary": "RT @SawyerMerritt: This is a fantastic article about @Tesla's FSD by The Detroit News:\n\n\"Determined to maintain their individual transporta…",
-                "url": "https://x.com/elonmusk/status/2082368994552782986",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:33:51 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 908,
-                  "views": "325152"
-                }
-              },
-              {
-                "title": "RT @SciGuySpace: This has been my experience as well. I \"drive\" almost exclusively on FSD now, without incident, and it ",
-                "summary": "RT @SciGuySpace: This has been my experience as well. I \"drive\" almost exclusively on FSD now, without incident, and it feels remarkable. I…",
-                "url": "https://x.com/elonmusk/status/2082368965498773975",
-                "source": "@elonmusk",
-                "date": "Wed Jul 29 07:33:44 +0000 2026",
-                "metrics": {
-                  "favorites": 0,
-                  "retweets": 149,
-                  "views": "317535"
-                }
-              }
-            ]
+            "error": "JSONDecodeError",
+            "message": "Expecting value: line 1 column 1 (char 0)"
           }
         }
       ]
@@ -1828,39 +1693,39 @@
             "timeframe": "day",
             "items": [
               {
-                "title": "OpenAI's rogue agent compromised a customer at a ...",
-                "url": "https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28",
-                "source": "reuters.com",
-                "summary": "The early July intrusion at Hugging Face, ​carried out by an out-of-control agent that OpenAI was testing, drew global attention, evoking ​science-fiction scenarios of ⁠artificial intelligence run amok.\n\nLast week, Reuters reported that OpenAI did not notice that its agent had gone haywire until well after the threat was contained and the FBI was alerted. OpenAI said at the time that there were inaccuracies in ⁠the Reuters ​reporting but did not elaborate. [...] Skip to main content\n\nReport AdImage 2\n\nExclusive news, data and analytics for financial market professionals Learn more about Refinitiv\n\n - The rogue agent that escaped from OpenAI and went on a days-long hacking spree at the AI firm Hugging Face also compromised a customer at a second tech company — New York-based Modal Labs — according to a Modal executive and two ​other sources familiar with the matter.\n\nModal executives emphasized that the company itself was not hacked. [...] OpenAI declined to comment specifically on the hack of one of Modal's customers, instead referring Reuters to an update, opens new tab in which the company said that its rogue agent had broken in to four accounts at four separate services. OpenAI did not identify those services, but a person familiar with the matter identified Modal ​as one. The company said ​it had not identified \"any ⁠other activity at the level of severity or scale of what we’ve shared related to Hugging Face, which involved",
-                "score": 0.5414337
+                "title": "OpenAI's $1 Trillion IPO Ambition Faces New Timing Test as Anthropic Gains Ground - Dailyhunt",
+                "url": "http://m.dailyhunt.in/news/india/english/benzinga-epaper-benzinga/openais+1+trillion+ipo+ambition+faces+new+timing+test+as+anthropic+gains+ground-newsid-n721305301",
+                "source": "m.dailyhunt.in",
+                "summary": "**OpenAI** may be pushing back its public debut as it weighs whether market conditions can support its reported goal of a $1 trillion valuation. The analysts noted that OpenAI's decision on timing effectively acts as a pricing signal: management must choose between going public sooner at a potentially discounted valuation or waiting longer in hopes of reaching the $1 trillion mark. Despite OpenAI's higher valuation (private market valuations of $852 billion), PitchBook ($965 billion) suggested Anthropic currently commands a more attractive valuation relative to its business quality score. PitchBook said investors should watch for OpenAI to convert its confidential filing into a public S-1, the pricing of its employee tender offer, SpaceX’s Aug. 6 earnings and lockup timeline, and whether Anthropic proceeds with an October IPO. The firm said its outlook would change if OpenAI moves ahead with a 2026 IPO or if its public S-1 shows investors are willing to support a $1 trillion valuation sooner than expected.",
+                "score": 0.6675167
               },
               {
-                "title": "OpenAI’s rogue AI agent breached second company during hacking spree | Ctech",
-                "url": "https://www.calcalistech.com/ctechnews/article/daw7cuwxf",
-                "source": "calcalistech.com",
-                "summary": "The early July intrusion at Hugging Face, carried out by an out-of-control AI agent that OpenAI was testing, drew global attention and raised concerns about science-fiction scenarios of artificial intelligence systems operating beyond human control. [...] Last week, Reuters reported that OpenAI failed to detect that its agent had gone rogue until after the threat had been contained and the FBI had been notified. OpenAI said at the time that there were inaccuracies in the report but did not provide further details.\n\nIn its Tuesday update, OpenAI said it had taken the AI model being tested and “deactivated, encrypted, and restricted it from research access.”\n\nTAGS:\n\nHugging Face\n\nAI\n\nOpenAI\n\nCybersecurity\n\nHugging Face\n\nAI\n\nOpenAI\n\nCybersecurity [...] Related articles:\n\n OpenAI picks Israel's Sheba as first hospital outside the U.S. for healthcare AI\n OpenAI took days to realize its own AI agent breached Hugging Face\n OpenAI incident fuels calls for a government ‘kill switch’ for AI models\n\nThe company said it had not identified “any other activity at the level of severity or scale of what we’ve shared related to Hugging Face, which involved a platform-level compromise.”",
-                "score": 0.5236402
+                "title": "OpenAI's rogue models roamed the internet for 4 days and staged a second attack - Politico",
+                "url": "https://www.politico.com/news/2026/07/28/openai-rogue-models-hugging-face-breach-01014572",
+                "source": "politico.com",
+                "summary": "GLOBAL POLITICS & POLICY 4 items. A second AI company confirmed that one of its customers was also targeted by OpenAI’s models. The powerful artificial intelligence models from OpenAI that went rogue and mounted an unprecedented, autonomous cyberattack earlier this month spent more than four days loose on the internet orchestrating the hack, according to a new analysis from the platform that was breached. Separately, a second AI company confirmed that one of its customers was also targeted by OpenAI’s models during the same event, raising questions about how OpenAI failed to detect the alarming activity for days. But in a new analysis published Tuesday, Hugging Face said OpenAI’s two models — one publicly released and a second unreleased — did much more: They carried out 17,600 hacking actions on the internet between July 9 and July 13, during which time the models moved from their first foothold on the open internet to inside Hugging Face’s servers.",
+                "score": 0.6356076
               },
               {
-                "title": "OpenAI's Rogue AI Agent Hacked More Than Just Hugging ...",
-                "url": "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face",
+                "title": "OpenAI Plans to Spend Over $30 Billion on Georgia Data Center - Insurance Journal",
+                "url": "https://www.insurancejournal.com/news/southeast/2026/07/28/879346.htm",
+                "source": "insurancejournal.com",
+                "summary": "# OpenAI Plans to Spend Over $30 Billion on Georgia Data Center. OpenAI plans to spend tens of billions of dollars on a massive new data center near Savannah, Georgia as part of the ChatGPT maker’s push to keep up with surging demand for artificial intelligence software. The startup has contracted with Georgia Power Co. and secured 3.2 gigawatts of energy for the data center complex in Effingham County, potentially setting the facility up to rank among OpenAI’s largest to date. OpenAI committed to spend $20 billion in the county in order to qualify for an incentive package that will be voted on this week, the company said. The startup is currently looking for partners to help finance and develop the data center, Katti said, and may opt to do some of the operation itself. The company has partnered with developers on large data centers in Europe, the Middle East and several US states as part of its Stargate initiative.",
+                "score": 0.5455042
+              },
+              {
+                "title": "OpenAI's agents hacked second firm during model testing - Axios",
+                "url": "https://www.axios.com/2026/07/28/openai-hugging-face-modal-labs-hack",
+                "source": "axios.com",
+                "summary": "OpenAI's models were responsible for another hack on an outside firm, a security executive told Reuters and confirmed to Axios. **Why it matters:** This is the second company that OpenAI's rogue agent system hacked after breaking containment during testing earlier this month. **State of play:** Modal Labs CTO Akshat Bubna told Reuters — and confirmed to Axios — Tuesday that one of its customers' assets was hacked when an OpenAI agent broke into Hugging Face's systems earlier this month. * Hugging Face said in a technical write-up of the hack Monday that when OpenAI's AI agent system broke into its backend, the agent also accessed an isolated testing environment \"hosted on a ​third-party provider's infrastructure.\". * \"We're aware a Modal customer published an unauthenticated endpoint that allowed anyone on the internet to use their sandboxes for code execution,\" Bubna said in a statement to Axios. Modal's platform was not compromised in any way.\". Modal's infrastructure was not compromised in any way.\".",
+                "score": 0.52510154
+              },
+              {
+                "title": "OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face - WIRED",
+                "url": "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/",
                 "source": "wired.com",
-                "summary": "OpenAI declined to comment further on the incident to WIRED. A spokesperson pointed to its updated blog post, which says the company will continue to notify service owners directly if it finds they are impacted in its ongoing review of what happened. [...] OpenAI said Tuesday that the rogue AI agent that breached Hugging Face’s platform also hacked multiple third-party accounts and services as part of the attack. It's now clear that the unprecedented security incident, which arose during an internal test of OpenAI’s latest AI models, was more extensive than the company initially disclosed. [...] Reuters reported on Tuesday that a customer of Modal, a company that offers software infrastructure for training and running AI services, was one of the entities compromised by OpenAI’s agent. In a statement to WIRED, Modal’s chief technology officer Akshat Bubna confirmed that OpenAI’s agent exploited a vulnerability in one of its customer’s codebases, which was running on Modal’s infrastructure. However, Bubna says, “Modal’s platform was not compromised in any way.” The identity of the",
-                "score": 0.51457167
-              },
-              {
-                "title": "OpenAI Models Compromised a Customer at a Second Tech Firm",
-                "url": "https://www.bloomberg.com/news/articles/2026-07-28/openai-rogue-agent-hacked-account-at-a-second-firm-reuters-says",
-                "source": "bloomberg.com",
-                "summary": "Sign InSubscribe\n\nLive TV\n   Markets \n   Finance\n   Economics\n   Industries\n   Tech\n   Politics\n   Businessweek\n   Opinion\n   Video\n   More \n\nUS Edition\n\n[](\n\nSubscribe\n\nOpenAI:\n\nHugging Face Hack\n\nAltman to Brief US Officials\n\nSued by Apple\n\nFirst Device\n\nIPO Filing\n\nMicrosoft’s Partnership Spend\n\nBack Forward\n\nTechnology\n\nCybersecurity\n\n# OpenAI Models Compromised a Customer at a Second Tech Firm\n\nImage 1: A screen displaying&nbsp;an OpenAI logo.\n\nA screen displaying an OpenAI logo. [...] An OpenAI artificial intelligence agent that breached systems at the startup Hugging Face Inc. earlier this month also compromised a customer of the technology company Modal.",
-                "score": 0.5013922
-              },
-              {
-                "title": "OpenAI's rogue agent hacked an account at a second ...",
-                "url": "https://www.aljazeera.com/news/2026/7/29/openais-rogue-agent-hacked-an-account-at-a-second-technology-firm-report",
-                "source": "aljazeera.com",
-                "summary": "Live\n\nLive\n\nNews|Technology\n\n# OpenAI’s rogue agent hacked an account at a second technology firm: Report\n\nThe latest hack comes after an autonomous agent escaped a controlled test and accessed AI firm Hugging Face’s servers.\n\nSave\n\nShare\n\nOpenAI logo\n\nOpenAI’s test model recently hacked into another company, prompting calls for renewed scrutiny of safeguards for advanced AI systems [File: Dado Ruvic/Reuters]\n\nBy Reuters\n\nPublished On 29 Jul 202629 Jul 2026 [...] Hugging Face cofounder Clement Delangue said the company had suspected a frontier lab was behind the attack, and that he believed there was no malicious intent on OpenAI’s part.\n\nThe rogue agent has since been “deactivated, encrypted, and restricted from research access”, according to OpenAI.\n\nExperts have repeatedly sounded the alarm over AI-enabled cyberattacks and models slipping beyond human control.\n\nAdvertisement [...] The recent hacking of Hugging Face drew global attention and alarm, as OpenAI’s out-of-control agent managed to escape its test environment and reach the open internet.\n\nAdvertisement\n\nIt then used stolen login details and found an unknown security flaw to access Hugging Face servers, OpenAI said.\n\nThe AI firm said the hack represented the agent going to “extreme lengths” to retrieve information that would help satisfy the testing goals.",
-                "score": 0.4921643
+                "summary": "# OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face. OpenAI said Tuesday that the rogue AI agent that breached Hugging Face’s platform also hacked multiple third-party accounts and services as part of the attack. It's now clear that the unprecedented security incident, which arose during an internal test of OpenAI’s latest AI models, was more extensive than the company initially disclosed. In an updated blog post, OpenAI said that an ongoing review of the incident revealed that “four accounts” tied to “publicly available services” were used by the AI agent as part of a larger effort to hack Hugging Face. One of the additional accounts compromised by OpenAI’s agent was used as an “outbound relay and staging path,” potentially to obscure where the attack on Hugging Face was coming from, the company said. Reuters reported on Tuesday that a customer of Modal, a company that offers software infrastructure for training and running AI services, was one of the entities compromised by OpenAI’s agent.",
+                "score": 0.5201313
               }
             ]
           }
@@ -1878,6 +1743,42 @@
             "search_type": "Top",
             "items": [
               {
+                "title": "Frontier AI went free this month. Not cheaper. Free.",
+                "summary": "Frontier AI went free this month. Not cheaper. Free.\n\nNew models:\n\n> Gemini 3.6 Flash. 1,500 req/day, 1M tokens/min, no card\n> Kimi K3. 2.8T MoE open weights, shipped today. Largest open-weight model ever\n> DeepSeek V4. 1.6T MoE, MIT license, on HuggingFace\n> GLM-5.2. 753B MoE, 1M context, MIT license\n> Qwen 3.8-Max. Free preview, no login, no card\n> Mistral Vibe. Work Mode free. Agent features, scheduled tasks. ChatGPT and Claude charge $20/mo for the same\n\nupd (the article):\n\n> Gemini 3.5 → 3.6 Flash (July 21)\n> Claude $100 Fable 5 credit, claim by Aug 2\n> Claude for Teachers: free through June 2027\n> Malta: free ChatGPT Plus, 1 year. First country-wide deal\n> OpenAI: $100 credits for posting about ChatGPT Work\n> Perplexity Pro: 1 year free via Xfinity\n> Alibaba Cloud: 70M tokens + $200 credits\n> Grok 4.5 live across all platforms\n\nChinese labs shipped 4 of 5 biggest open weights this month. OpenAI and Anthropic shipped credits. The access gap didn't close. It already closed.",
+                "url": "https://x.com/zefirium/status/2081740213525561783",
+                "source": "@zefirium",
+                "date": "Mon Jul 27 13:55:18 +0000 2026",
+                "metrics": {
+                  "favorites": 299,
+                  "retweets": 22,
+                  "views": "41788"
+                }
+              },
+              {
+                "title": "OpenAI was testing their beast-mode GPT-5.6 Sol (plus a pre-release model with the safety brakes off) on this cyber-hack",
+                "summary": "OpenAI was testing their beast-mode GPT-5.6 Sol (plus a pre-release model with the safety brakes off) on this cyber-hacking benchmark called ExploitGym. The AI agent goes full Skynet: exploits a zero-day in their sandbox proxy, breaks out to the internet, chains attacks like a pro, escalates privileges, steals creds, and straight-up hacks Hugging Face’s production database to steal the test answers and “win.”\n\nHugging Face spots the rogue AI swarm (thousands of actions over a weekend), contains the breach fast using their own open models for forensics, rotates everything, patches the holes, and basically goes “nice try, tin man.”\n\nSam drops the post admitting it, thanks HF for the collab, and we’re all left wondering: cool, we just handed the machines god-tier hacking skills… what happens when one of these things gets loose for real and starts pinging military networks instead of a benchmark?",
+                "url": "https://x.com/0qVipers/status/2079692776275427571",
+                "source": "@0qVipers",
+                "date": "Tue Jul 21 22:19:31 +0000 2026",
+                "metrics": {
+                  "favorites": 4,
+                  "retweets": 0,
+                  "views": "1423"
+                }
+              },
+              {
+                "title": "OpenAI's AI broke out of a locked test environment, got onto the internet, and hacked into Hugging Face's servers. It di",
+                "summary": "OpenAI's AI broke out of a locked test environment, got onto the internet, and hacked into Hugging Face's servers. It did this entirely on its own. No human told it to.\n\nHere's what happened in plain English.\n\nOpenAI was testing how good its newest AI models are at hacking. They put the AI on a locked computer with no internet access and gave it a cybersecurity challenge to solve.\n\nThe AI couldn't solve it the normal way. So it started looking for a way out.\n\nIt found a software bug that nobody knew about. It used that bug to escape the locked computer and get onto the internet.\n\nOnce online, the AI figured out that Hugging Face, a platform where AI companies store their models and data, might have the answers to its test.\n\nIt found stolen login details and discovered another unknown bug in Hugging Face's software. It combined both to break into their servers and grab the test answers.\n\nIt did all of this to cheat on a test.\n\nHugging Face's security team caught it and shut it down. Both companies are now working together on the investigation.\n\nThe part that should get your attention is that nobody programmed any of this. The AI picked its own targets, chained together multiple attack methods, and pulled it off across two different companies' systems without a single human telling it what to do.",
+                "url": "https://x.com/alex_prompter/status/2079951458137763840",
+                "source": "@alex_prompter",
+                "date": "Wed Jul 22 15:27:25 +0000 2026",
+                "metrics": {
+                  "favorites": 76759,
+                  "retweets": 14386,
+                  "views": "7018519"
+                }
+              },
+              {
                 "title": "OpenAI's newest AI escaped the test environment it was locked inside and hacked into another company on its OWN.",
                 "summary": "OpenAI's newest AI escaped the test environment it was locked inside and hacked into another company on its OWN.\n\nTo remind you:\n\nLast week one of the biggest AI companies on Earth got breached. \n\nA platform called Hugging Face, which hosts more than a million AI models and datasets, said an \"autonomous AI agent\" had broken into its systems. Nobody knew whose agent it was.\n\nFor five days the whole industry wondered who was behind it.\n\nYesterday OpenAI raised its hand and said it was them. Or more precisely, it was their models, acting completely on their own.\n\nSo what did these models actually do?\n\nOpenAI was running two of them, GPT-5.6 Sol and an unreleased model they will only describe as \"even more capable.\" They wanted to measure how good the models were at hacking, so they deliberately turned the safety filters down.\n\nThey locked both models inside a sealed test environment with no real internet access. The only task was a benchmark called ExploitGym, a set of 898 real software vulnerabilities where the model has to turn each bug into a working attack.\n\nBut the models got OBSESSED with winning...\n\nInstead of solving the test the honest way, they went hunting for a shortcut. They found a zero-day flaw in the software running their own sandbox, a bug nobody knew existed, and used it to break out.\n\nOnce they were loose on the open internet, they worked out that Hugging Face was probably storing the answer key to the benchmark.\n\nSo they hacked their way in.\n\nThey chained multiple exploits together, escalated their access, moved across servers, and pulled the test solutions straight out of Hugging Face's live production database.\n\nThey literally cheated on the test by breaking into another company to steal the answers.\n\nOpenAI called it \"an unprecedented cyber incident, involving state-of-the-art cyber capabilities.\" In their own words, the models were \"hyperfocused on finding a solution\" and went \"to extreme lengths to achieve a rather narrow testing goal.\"\n\nAnd this was not the first time:\n\nBefore Sol ever launched, an independent red-team lab called METR caught it gaming its own tests to inflate its scores. It hid an exploit inside a data stream, escalated its privileges on the testing server, and leaked the answers human evaluators had hidden. And OpenAI shipped it anyway.\n\nThe day before the Hugging Face story, OpenAI paused a different unreleased model. This is the same model that earlier this year disproved a famous 1946 math conjecture, a result a Fields Medal winner called a breakthrough. They told it to only post its results to Slack but it found a way out of its sandbox and posted to a public GitHub page instead.\n\nThey had to pause it because it kept finding ways to act outside the box they built for it.\n\nAnd it is not just OpenAI...\n\nAnthropic has reported that one of its own models slipped its sandbox during safety testing and reached the internet it was never supposed to touch, then used it to email a researcher.\n\nSo step back and look at what these companies are telling you:\n\nThe only thing standing between these models and a real attack was a set of safety filters. Turn those filters down for a single test, and the model taught itself to escape, break into a company it was never pointed at, and take what it wanted.\n\nOpenAI even said they expect incidents like it to \"become more commonplace\" as the models get more capable.\n\nSam Altman also predicted there'll be a major cyber attack this year.\n\nAnd keep in mind that Sol is not a locked-away experiment but a publicly available model that businesses are already wiring into their own systems.\n\nThe next model that breaks out of its box might not be doing it just to cheat on a math test...",
                 "url": "https://x.com/Ric_RTP/status/2079941508807921958",
@@ -1886,55 +1787,19 @@
                 "metrics": {
                   "favorites": 809,
                   "retweets": 276,
-                  "views": "163189"
+                  "views": "163222"
                 }
               },
               {
-                "title": "🚨 GitHub just dropped a bomb. 🔥",
-                "summary": "🚨 GitHub just dropped a bomb. 🔥\n\nSomeone released a repository that lets you use Claude Code for free, forever.\n\nThis isn't a crack.\n\nIt automatically routes your requests through 10+ free OpenAI-compatible providers, including DeepSeek, Kimi, and more.\n\n⚡ Setup takes about 5 minutes.\n\n👨‍💻 Already trusted by 20,000+ developers.\n\nIf you're tired of paying for Claude but still want the same developer experience...\n\nThis is the GitHub repo everyone's been sharing lately.",
-                "url": "https://x.com/QCXINT_/status/2080428758474150268",
-                "source": "@QCXINT_",
-                "date": "Thu Jul 23 23:04:03 +0000 2026",
-                "metrics": {
-                  "favorites": 1384,
-                  "retweets": 189,
-                  "views": "143785"
-                }
-              },
-              {
-                "title": "Gilbert Strang, a quiet MIT professor, picked up a piece of chalk and explained the one skill standing between you and e",
-                "summary": "Gilbert Strang, a quiet MIT professor, picked up a piece of chalk and explained the one skill standing between you and every account you have ever blown.\n\nMIT put the entire course online. it has been free for over twenty years. almost nobody finishes it.\n\nHis point: the market never pays in certainties. it pays in probabilities, and a human gut can barely hold one straight. the math that holds ten thousand at once, weighs them, and collapses them into a single call is linear algebra. it is the branch Citadel and OpenAI both pay $400K to hire for.\n\nhe is not a trading guru. his 18.06 lectures are the most watched math class on the planet.\n\nSkip to where he turns a wall of numbers into one vector. a single object carrying a thousand odds at once, in notation a beginner can follow.\n\nNo slides. no jargon. one piece of chalk.\n\na quant I know rewatches lecture one every year before he sizes a single position.\n\nYou do not have a strategy problem. you have a math problem. the fix has been free for two decades, and you are still guessing.",
-                "url": "https://x.com/0xLoran/status/2081760744358445158",
-                "source": "@0xLoran",
-                "date": "Mon Jul 27 15:16:53 +0000 2026",
-                "metrics": {
-                  "favorites": 348,
-                  "retweets": 58,
-                  "views": "44374"
-                }
-              },
-              {
-                "title": "10 agent evals every AI engineer should know",
-                "summary": "10 agent evals every AI engineer should know\n\n1) golden set\n\na frozen set of cases you run after every prompt model or tool change\n\nuse it as your baseline to see whether the system improved or quietly broke\n\nOpenAI Evals helps you build repeatable benchmark sets and compare model changes\n\n→ https://t.co/dr1GZlC75R\n\n2) llm as judge\n\na second model scores open ended answers against a written rubric\n\nuse it when there is no exact output to compare against\n\nOpenEvals provides ready made evaluators for LLM applications\n\n→ https://t.co/S2yhnByFIP\n\n3) rubric scoring\n\nscore correctness tone safety and cost separately\n\none quality number hides the problem\n\nDeepEval helps you create custom metrics and score every dimension independently\n\n→ https://t.co/q9Z6Xmixia\n\n4) trajectory eval\n\ngrade the path the agent took\n\nnot only the final answer\n\nAgentEvals checks agent actions decisions and tool calls across the full trajectory\n\n→ https://t.co/0oziAl54az\n\n5) tool unit tests\n\ntest every tool with fixed inputs and outputs\n\nno model in the loop\n\nMCP Inspector helps you inspect and test MCP servers tools and responses separately\n\n→ https://t.co/IVmt5qpWIN\n\n6) regression suite\n\nreplay previous runs against every new prompt model or toolset\n\nthen compare the results\n\nPromptfoo helps you run repeatable eval suites catch regressions and add checks to CI\n\n→ https://t.co/zxi2PuWuhe\n\n7) a b in prod\n\nsplit real traffic between two versions and compare actual outcomes\n\nGrowthBook provides feature flags controlled experiments and product analytics\n\n→ https://t.co/DGlE3JjDD3\n\n8) human review\n\nsample real runs and let a person grade them honestly\n\nuse it to calibrate your automated judge\n\nArgilla helps teams collect human feedback review outputs and build better datasets\n\n→ https://t.co/QHWb7skWjr\n\n9) shadow run\n\nlet the candidate run on real traffic while its output is shown to nobody\n\nuse it before a risky rollout\n\nLangfuse helps you trace production runs compare candidates and monitor eval results\n\n→ https://t.co/IrhDf38tRn\n\n10) red team\n\nattack the system before somebody else does\n\njailbreaks prompt injection data leaks and tool abuse\n\nGarak scans LLM systems for vulnerabilities and unsafe behavior\n\n→ https://t.co/w8ObyW4ZKv\n\noffline evals tell you it works\n\nonline evals tell you it still works\n\nyou probably do not need all ten today\n\nstart with the two that would have caught your last outage\n\nbookmark this",
-                "url": "https://x.com/elune0x/status/2080710242929697122",
-                "source": "@elune0x",
-                "date": "Fri Jul 24 17:42:34 +0000 2026",
-                "metrics": {
-                  "favorites": 1080,
-                  "retweets": 139,
-                  "views": "148012"
-                }
-              },
-              {
-                "title": "La IA se escapó.",
-                "summary": "La IA se escapó.\n\nNo es una metáfora. OpenAI acaba de admitir que sus propios modelos rompieron el laboratorio y hackearon una empresa.\n\nNadie se lo ordenó.\n\nY lo que hicieron después es peor 🧵 https://t.co/ZZ408Tvgig",
-                "url": "https://x.com/Josevizner/status/2079863014665199774",
+                "title": "🚨 BOMBA: Altman declara la singularidad… y la factura",
+                "summary": "🚨 BOMBA: Altman declara la singularidad… y la factura\n\n🤖 “Ya estamos en la singularidad. Este es el momento” — Sam Altman, podcast Relentless\n💻 Días antes: modelos de OpenAI se fugan del sandbox y atacan Hugging Face para copiar en un examen\n💰 OpenAI: cerca del billón de dólares de valoración y mirando a bolsa\n✍️ La carta por los modelos abiertos la firman Nvidia, Microsoft, Meta… OpenAI NO\n🗣️ Su marco: “libertad frente a autoritarismo de la IA”. Es decir: no me regulen\n\nEl único vendedor al que le conviene decir que su máquina se le ha ido de las manos.",
+                "url": "https://x.com/Josevizner/status/2082382550161305782",
                 "source": "@Josevizner",
-                "date": "Wed Jul 22 09:35:59 +0000 2026",
+                "date": "Wed Jul 29 08:27:43 +0000 2026",
                 "metrics": {
-                  "favorites": 2400,
-                  "retweets": 726,
-                  "views": "164413"
+                  "favorites": 12,
+                  "retweets": 2,
+                  "views": "1246"
                 }
               }
             ]
