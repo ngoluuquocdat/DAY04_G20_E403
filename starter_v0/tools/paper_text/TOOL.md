@@ -8,7 +8,7 @@ inputs: [arxiv_url, max_pages, max_chars]
 outputs: [items, pdf_path, txt_path, page_count]
 side_effect: local_file_write
 ---
-# paper_text
+# read_arxiv_paper_content
 
 Downloads an arXiv PDF and extracts text locally with `pypdf`. Output is saved
 under `starter_v0/arxiv_papers/`.

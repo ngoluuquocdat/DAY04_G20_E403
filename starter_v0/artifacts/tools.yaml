@@ -8,8 +8,8 @@
 #   this file  ->  tools/__init__.py (TOOL_FUNCTIONS)  ->  data/eval_base.json + data/eval_research_extension.json
 tools:
   # ---------------- Core tools ----------------
-  - name: clarify
-    description: "Gửi một câu hỏi cho người dùng."
+  - name: ask_user_for_info
+    description: "Dùng để đặt câu hỏi cho người dùng khi thiếu thông tin quan trọng (ví dụ: tên tài khoản, URL) hoặc để xin phép xác nhận trước khi thực hiện hành động gửi. Tuyệt đối không tự ý đoán thông tin."
     parameters:
       type: object
       properties:
@@ -18,8 +18,8 @@ tools:
         options: {type: array, default: [], items: {type: string}, description: "Các lựa chọn"}
       required: [question]
 
-  - name: timeline
-    description: "Lấy các bài đăng gần đây."
+  - name: get_user_recent_tweets
+    description: "Lấy các bài đăng gần đây của một tài khoản Twitter. BẮT BUỘC PHẢI CÓ tên tài khoản (handle) cụ thể. Nếu user không cung cấp handle, KHÔNG DÙNG tool này mà dùng ask_user_for_info để hỏi."
     parameters:
       type: object
       properties:
@@ -27,8 +27,8 @@ tools:
         limit: {type: integer, default: 5, description: "Số lượng"}
       required: [screenname]
 
-  - name: social_search
-    description: "Tìm trên mạng xã hội."
+  - name: search_twitter_by_keyword
+    description: "Tìm kiếm các bài đăng trên mạng xã hội Twitter theo chủ đề hoặc từ khóa."
     parameters:
       type: object
       properties:
@@ -37,27 +37,27 @@ tools:
         limit: {type: integer, default: 5, description: "Số lượng"}
       required: [query]
 
-  - name: lookup
-    description: "Tra cứu thông tin trên internet."
+  - name: search_web_information
+    description: "Tra cứu thông tin, tin tức trên mạng Internet. (Lưu ý: Không bao gồm các từ dư thừa như 'tin tức', 'news' trong từ khóa tìm kiếm nếu topic đã là news)."
     parameters:
       type: object
       properties:
-        query: {type: string, default: "", description: "Truy vấn"}
+        query: {type: string, default: "", description: "Từ khóa cốt lõi (Tuyệt đối không kèm các từ dư thừa như 'tin tức', 'news' nếu topic đã là news)"}
         topic: {type: string, enum: [general, news], default: "general", description: "Phân loại"}
         timeframe: {type: string, enum: [day, week, month, year], default: "week", description: "Khoảng thời gian"}
         max_results: {type: integer, default: 5, description: "Số kết quả"}
       required: [query]
 
-  - name: fetch
-    description: "Lấy nội dung từ một địa chỉ."
+  - name: read_webpage_content
+    description: "Lấy toàn bộ nội dung từ một trang web. BẮT BUỘC PHẢI CÓ đường dẫn (URL) cụ thể. Nếu user không cung cấp URL, dùng ask_user_for_info để hỏi."
     parameters:
       type: object
       properties:
         url: {type: string, default: "", description: "Địa chỉ"}
       required: [url]
 
-  - name: format
-    description: "Trình bày dữ liệu đã có thành văn bản."
+  - name: format_data_to_markdown
+    description: "Định dạng và trình bày lại dữ liệu thô thành văn bản markdown dễ đọc."
     parameters:
       type: object
       properties:
@@ -78,8 +78,8 @@ tools:
       required: [items, template]
 
   # ---------------- Bonus tools ----------------
-  - name: send
-    description: "Gửi một đoạn văn bản đi."
+  - name: send_telegram_message
+    description: "Gửi một tin nhắn hoặc báo cáo lên Telegram. BẮT BUỘC PHẢI DÙNG ask_user_for_info (với response_type=yes_no) ĐỂ XIN PHÉP NGƯỜI DÙNG TRƯỚC KHI GỌI TOOL NÀY."
     parameters:
       type: object
       properties:
@@ -87,8 +87,8 @@ tools:
         confirmed: {type: boolean, default: false, description: "Cờ xác nhận"}
       required: [text]
 
-  - name: policy
-    description: "Tìm trong tài liệu nội bộ."
+  - name: search_internal_policy
+    description: "Tìm kiếm các tài liệu, quy định nội bộ của công ty."
     parameters:
       type: object
       properties:
@@ -97,8 +97,8 @@ tools:
         top_k: {type: integer, default: 3, description: "Số mục"}
       required: [query]
 
-  - name: papers
-    description: "Tìm bài báo khoa học."
+  - name: search_arxiv_papers
+    description: "Tìm kiếm các bài báo khoa học trên ArXiv."
     parameters:
       type: object
       properties:
@@ -107,8 +107,8 @@ tools:
         sort_by: {type: string, enum: [relevance, lastUpdatedDate, submittedDate], default: "relevance", description: "Sắp xếp"}
       required: [query]
 
-  - name: paper_text
-    description: "Lấy nội dung text của một bài báo."
+  - name: read_arxiv_paper_content
+    description: "Lấy toàn bộ nội dung text của một bài báo khoa học trên ArXiv bằng URL hoặc ID."
     parameters:
       type: object
       properties:
@@ -116,3 +116,12 @@ tools:
         max_pages: {type: integer, default: 5, description: "Số trang"}
         max_chars: {type: integer, default: 8000, description: "Số ký tự"}
       required: [arxiv_url]
+
+  - name: get_exchange_rate
+    description: "Tra cứu tỷ giá ngoại tệ hiện tại."
+    parameters:
+      type: object
+      properties:
+        base: {type: string, default: "USD", description: "Loại tiền gốc"}
+        target: {type: string, default: "VND", description: "Loại tiền đích"}
+      required: [base, target]

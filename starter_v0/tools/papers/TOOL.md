@@ -8,7 +8,7 @@ inputs: [query, max_results, sort_by]
 outputs: [items, total_results]
 side_effect: false
 ---
-# papers
+# search_arxiv_papers
 
 Searches arXiv via the official Atom API. Rate-limited (waits ~3s between
 in-process requests).

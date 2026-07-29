@@ -8,6 +8,6 @@ inputs: [text, confirmed]
 outputs: [status]
 side_effect: true
 ---
-# send
+# send_telegram_message
 
 Posts text to a Telegram channel. The message is only sent when `confirmed` is true.

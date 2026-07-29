@@ -7,7 +7,7 @@ inputs: [question, response_type, options]
 outputs: [question, response_type, options, awaiting_user]
 side_effect: false
 ---
-# clarify
+# ask_user_for_info
 
 Returns a question to the user and pauses until the next user turn.
 `response_type` is free text, yes/no, or a choice from `options`.

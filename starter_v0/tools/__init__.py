@@ -17,6 +17,7 @@ from .policy.tool import search_company_policy
 from .social_search.tool import search_tweets
 from .send.tool import send_telegram
 from .lookup.tool import web_search
+from .exchange.tool import get_exchange_rate
 
 
 # NOTE (starter_v0): tool names here are intentionally vague. These keys are the
@@ -25,16 +26,17 @@ from .lookup.tool import web_search
 #   artifacts/tools.yaml  ->  this dict  ->  data/eval_base.json + data/eval_research_extension.json
 # Otherwise the eval raises "not declared in tools.yaml" or scores every call as a name mismatch.
 TOOL_FUNCTIONS = {
-    "clarify": ask_user,
-    "timeline": get_user_tweets,
-    "social_search": search_tweets,
-    "lookup": web_search,
-    "fetch": read_url,
-    "format": render_digest,
-    "send": send_telegram,
-    "policy": search_company_policy,
-    "papers": arxiv_search,
-    "paper_text": get_arxiv_paper_text,
+    "ask_user_for_info": ask_user,
+    "get_user_recent_tweets": get_user_tweets,
+    "search_twitter_by_keyword": search_tweets,
+    "search_web_information": web_search,
+    "read_webpage_content": read_url,
+    "format_data_to_markdown": render_digest,
+    "send_telegram_message": send_telegram,
+    "search_internal_policy": search_company_policy,
+    "search_arxiv_papers": arxiv_search,
+    "read_arxiv_paper_content": get_arxiv_paper_text,
+    "get_exchange_rate": get_exchange_rate,
 }
 
 
