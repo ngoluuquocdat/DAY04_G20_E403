@@ -42,9 +42,7 @@
         "tool_calls": [
           {
             "name": "ask_user_for_info",
-            "args": {
-              "response_type": "text"
-            }
+            "args": {}
           }
         ]
       },
