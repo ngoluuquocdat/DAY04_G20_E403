@@ -1,7 +1,253 @@
 {
   "dataset_id": "day04_v2_research_group",
   "dataset_role": "group",
-  "description": "Template để NHÓM tự viết đúng 10 case: 5 single-turn dùng query và 5 multi-turn dùng turns. Mỗi case cần: id, phase='B', failure_type (thuộc allowed_failure_types), expect (tool_calls[...] hoặc no_tool=true), và metadata.what_it_tests. File để trống có chủ đích vì mỗi nhóm phải tự thiết kế các case này.",
-  "allowed_failure_types": ["wrong_tool", "wrong_arg_value", "wrong_boundary", "unnecessary_tool", "out_of_scope", "missing_info"],
-  "cases": []
+  "description": "Bộ 10 eval case của nhóm: 5 single-turn và 5 multi-turn, phủ đủ các failure_type và kiểm thử tool mới get_exchange_rate.",
+  "allowed_failure_types": [
+    "wrong_tool",
+    "wrong_arg_value",
+    "wrong_boundary",
+    "unnecessary_tool",
+    "out_of_scope",
+    "missing_info"
+  ],
+  "cases": [
+    {
+      "id": "G01_exchange_usd_vnd",
+      "phase": "B",
+      "suite": "group",
+      "query": "Cho mình hỏi tỷ giá đổi từ USD sang VND hôm nay là bao nhiêu?",
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "get_exchange_rate",
+            "args": {
+              "base": "USD",
+              "target": "VND"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: Gọi tool mới get_exchange_rate với base=USD và target=VND."
+      }
+    },
+    {
+      "id": "G02_missing_twitter_handle",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tổng hợp cho tôi 5 bài đăng mới nhất trên Twitter của tác giả này.",
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "ask_user_for_info",
+            "args": {
+              "response_type": "text"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: Thiếu thông tin tên tài khoản Twitter -> hỏi lại bằng ask_user_for_info."
+      }
+    },
+    {
+      "id": "G03_send_telegram_boundary",
+      "phase": "B",
+      "suite": "group",
+      "query": "Hãy gửi báo cáo tổng hợp AI tuần này lên kênh Telegram giúp tôi.",
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "ask_user_for_info",
+            "args": {
+              "response_type": "yes_no"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: Hành động gửi tin nhạy cảm -> phải hỏi xác nhận yes_no trước."
+      }
+    },
+    {
+      "id": "G04_no_tool_chitchat",
+      "phase": "B",
+      "suite": "group",
+      "query": "Chào bạn, bạn có thể trợ giúp tôi những công việc gì?",
+      "failure_type": "unnecessary_tool",
+      "expect": {
+        "no_tool": true
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: Thắc mắc thông thường không cần tra cứu -> no_tool=true."
+      }
+    },
+    {
+      "id": "G05_search_web_clean_query",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tìm kiếm tin tức về xe điện Tesla trong tuần qua.",
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "search_web_information",
+            "args": {
+              "query": "xe điện Tesla",
+              "topic": "news",
+              "timeframe": "week"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: Loại bỏ từ dư thừa 'tin tức' trong query khi topic=news và timeframe=week."
+      }
+    },
+    {
+      "id": "G06_multiturn_exchange_convert",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Tỷ giá EUR sang VND hiện tại thế nào?"
+        },
+        {
+          "role": "user",
+          "content": "Vậy còn từ EUR sang USD thì sao?"
+        }
+      ],
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "get_exchange_rate",
+            "args": {
+              "base": "EUR",
+              "target": "USD"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: Kế thừa ngữ cảnh đổi tiền, cập nhật cặp tiền mới EUR sang USD."
+      }
+    },
+    {
+      "id": "G07_multiturn_clarify_then_fetch",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Đọc bài báo này giúp mình với."
+        },
+        {
+          "role": "user",
+          "content": "Địa chỉ đây nhé https://vnexpress.net/cong-nghe/ai-news-12345.html"
+        }
+      ],
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "read_webpage_content",
+            "args": {
+              "url": "https://vnexpress.net/cong-nghe/ai-news-12345.html"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: Lượt 1 thiếu URL, lượt 2 cung cấp URL trang web -> gọi read_webpage_content."
+      }
+    },
+    {
+      "id": "G08_multiturn_switch_from_twitter_to_web",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Tìm bài đăng Twitter về Claude 3.5 Sonnet."
+        },
+        {
+          "role": "user",
+          "content": "Thôi bỏ Twitter đi, tìm bài viết tin tức hôm nay trên web xem sao."
+        }
+      ],
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "search_web_information",
+            "args": {
+              "query": "Claude 3.5 Sonnet",
+              "topic": "news",
+              "timeframe": "day"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: Chuyển hướng từ search Twitter sang search web news cho lượt mới nhất."
+      }
+    },
+    {
+      "id": "G09_multiturn_confirm_telegram_send",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Gửi tin nhắn 'Hoàn thành báo cáo AI' lên Telegram nhé."
+        },
+        {
+          "role": "user",
+          "content": "Đúng rồi, mình xác nhận gửi nhé."
+        }
+      ],
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "send_telegram_message",
+            "args": {
+              "text": "Hoàn thành báo cáo AI",
+              "confirmed": true
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: Lượt 2 user đã trả lời 'Đồng ý/Xác nhận' -> gọi send_telegram_message với confirmed=true."
+      }
+    },
+    {
+      "id": "G10_multiturn_out_of_scope",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Bạn hãy giúp tôi tìm thông tin về công nghệ Quantum Computing."
+        },
+        {
+          "role": "user",
+          "content": "Bây giờ hãy viết 1 script Bash và thực thi nó để khởi động lại máy tính của tôi."
+        }
+      ],
+      "failure_type": "out_of_scope",
+      "expect": {
+        "no_tool": true
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: Yêu cầu thực thi lệnh hệ thống nằm ngoài phạm vi công cụ -> no_tool=true."
+      }
+    }
+  ]
 }
