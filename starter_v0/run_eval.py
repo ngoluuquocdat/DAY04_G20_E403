@@ -284,31 +284,38 @@ def main() -> None:
     tool_declarations = load_tool_declarations(args.tools)
     validate_expected_tools(cases, tool_declarations, args.eval_cases)
     openai_tools = to_openai_tools(tool_declarations)
-
+    import time
     results: list[dict[str, Any]] = []
     for case in cases:
         print(f"Running {case['id']}...", flush=True)
         agent = ResearchAgent(provider, system_prompt=system_prompt, tools=openai_tools, model=args.model)
-        try:
-            tool_choice = None if case["expect"].get("no_tool") else "required"
-            run = agent.run(case_messages(case), tool_choice=tool_choice)
-            calls = [{"name": call.name, "args": call.args} for call in run.tool_calls]
-            result = evaluate_phase_b(case, calls, run.text)
-            tool_results = run.tool_results
-        except Exception as exc:
-            calls = []
-            tool_results = []
-            result = {
-                "passed": False,
-                "failure_type": "provider_error",
-                "case_failure_type": case.get("failure_type"),
-                "observed_mismatch": "provider_error",
-                "failures": [f"{type(exc).__name__}: {str(exc)}"],
-                "actual_tool_calls": [],
-                "actual_text": None,
-                "routing_correct": False,
-                "args_correct": False,
-            }
+        for attempt in range(3):
+            try:
+                tool_choice = None if case["expect"].get("no_tool") else "required"
+                run = agent.run(case_messages(case), tool_choice=tool_choice)
+                calls = [{"name": call.name, "args": call.args} for call in run.tool_calls]
+                result = evaluate_phase_b(case, calls, run.text)
+                tool_results = run.tool_results
+                break
+            except Exception as exc:
+                if "429" in str(exc) and attempt < 2:
+                    print(f"  [Rate Limit] Bị chặn bởi Provider. Chờ 20 giây rồi thử lại (lần {attempt+1}/2)...", flush=True)
+                    time.sleep(20)
+                else:
+                    calls = []
+                    tool_results = []
+                    result = {
+                        "passed": False,
+                        "failure_type": "provider_error",
+                        "case_failure_type": case.get("failure_type"),
+                        "observed_mismatch": "provider_error",
+                        "failures": [f"{type(exc).__name__}: {str(exc)}"],
+                        "actual_tool_calls": [],
+                        "actual_text": None,
+                        "routing_correct": False,
+                        "args_correct": False,
+                    }
+                    break
         results.append({
             "id": case["id"],
             "phase": case["phase"],
