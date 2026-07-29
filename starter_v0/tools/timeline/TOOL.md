@@ -8,7 +8,7 @@ inputs: [screenname, limit]
 outputs: [items]
 side_effect: false
 ---
-# timeline
+# get_user_recent_tweets
 
 Fetches recent posts from a single account. `screenname` is an account handle
 without `@`.

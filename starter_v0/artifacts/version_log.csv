@@ -1,1 +1,3 @@
 version,author,changed_artifact,artifact_version,prompt_hash,tools_hash,reason,hypothesis,metric_name,metric_before,metric_after,run_file
+v1,Tool Designer,tools.yaml,v1+pff5fe97a88fc+tdb8683cc754a,pff5fe97a88fc,tdb8683cc754a,Tên tool cũ chung chung gây nhầm lẫn,Đổi tên tool sang động từ rõ ràng và viết lại mô tả sẽ giúp LLM hiểu đúng chức năng,case_accuracy,0.70,0.95,runs/v1_B_base_openrouter_20260729T154244873171.json
+v1,Prompt Engineer,system_prompt.md,v1+pff5fe97a88fc+tdb8683cc754a,pff5fe97a88fc,tdb8683cc754a,Lệnh cấm hỏi trong system prompt làm hỏng tool clarify,Gỡ bỏ lệnh cấm đoán độc hại sẽ giúp model dùng ask_user_for_info khi thiếu thông tin,case_accuracy,0.70,0.95,runs/v1_B_base_openrouter_20260729T154244873171.json

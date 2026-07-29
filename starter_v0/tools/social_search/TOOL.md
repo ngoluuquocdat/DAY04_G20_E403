@@ -8,6 +8,6 @@ inputs: [query, search_type, limit]
 outputs: [items]
 side_effect: false
 ---
-# social_search
+# search_twitter_by_keyword
 
 Searches posts by keyword. `search_type` orders results (`Latest` or `Top`).

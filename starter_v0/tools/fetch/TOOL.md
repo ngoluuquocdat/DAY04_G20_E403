@@ -8,6 +8,6 @@ inputs: [url]
 outputs: [items]
 side_effect: false
 ---
-# fetch
+# read_webpage_content
 
 Reads the content of a single URL via Firecrawl.
