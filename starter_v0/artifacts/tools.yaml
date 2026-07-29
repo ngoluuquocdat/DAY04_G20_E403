@@ -28,7 +28,7 @@ tools:
       required: [screenname]
 
   - name: search_twitter_by_keyword
-    description: "Tìm kiếm các bài đăng trên mạng xã hội Twitter theo chủ đề hoặc từ khóa."
+    description: "Tìm kiếm các bài đăng trên mạng xã hội Twitter theo chủ đề hoặc từ khóa. QUAN TRỌNG: Nếu trong lịch sử chat người dùng đã yêu cầu 'bỏ Twitter' hoặc 'chuyển sang web', TUYỆT ĐỐI KHÔNG gọi tool này nữa."
     parameters:
       type: object
       properties:
